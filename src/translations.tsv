@@ -153,7 +153,7 @@ Auto-Hide Menu Bar|自动隐藏菜单栏
 Frame Statistics|帧统计
 Manual Orbit Line Visibility|手动控制轨道线显示
 Map Grid Toggle|地图网格开关
-Crew Portrait Cameras|成员肖像视角
+Crew Portrait Cameras|乘员肖像视角
 Camera Jump Time|视角切换时间
 Mouse Hover Highlight Color|鼠标悬停高亮颜色
 Gauges|仪表
@@ -490,7 +490,7 @@ Changes apply immediately and are saved to your settings file.|更改立即生�
 Do you want to clear the current vehicle and create a new one?|要清空当前载具并新建一艘吗？
 Double click a layout to apply it, right click for its context menu. Clicking a header sorts by that column.|双击布局即可应用，右键打开操作菜单。点击列标题可按该列排序。
 Double click a save to load it, and right click to gain access to that saves context menu. Clicking on a header item will toggle sorting for that column.|双击存档即可加载，右键打开操作菜单。点击列标题可切换该列的排序方式。
-Double-click an assigned vehicle to follow it. Click a column header to sort the roster.|双击所属载具即可跟随。点击列标题可排序成员名单。
+Double-click an assigned vehicle to follow it. Click a column header to sort the roster.|双击所属载具即可跟随。点击列标题可对名单排序。
 Double-click an item to focus on it or Shift-Click to target it with the currently controlled vessel. You can also filter objects in this window or toggle columns.|双击对象可聚焦；按住 Shift 点击可设为当前受控载具的目标。也可在此筛选对象或切换显示列。
 Double-click to follow|双击跟随
 Double-click to follow and control|双击跟随并控制
@@ -609,7 +609,7 @@ Decoupler Enabled|启用分离器
 Docked to|对接至
 Fill ALL vehicle seats|填满载具全部座位
 Fill Seats|填充座位
-Crew|成员
+Crew|乘员
 Pilot|驾驶员
 Engineer|工程师
 Scientist|科学家

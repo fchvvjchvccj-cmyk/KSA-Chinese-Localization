@@ -94,8 +94,8 @@ GAME SAVES|游戏存档
 VEHICLE SAVES|载具存档
 LOAD SAVE|加载存档
 OVERWRITE SAVE|覆盖存档
-Kitten Roster|猫咪成员名单
-ROSTER|成员名单
+Kitten Roster|小猫航天员名单
+ROSTER|现役名单
 MEMORIAL|纪念名单
 Auto|自动
 Mixed|混合
@@ -114,7 +114,7 @@ SNAP|吸附
 TRANS|平移
 BIN|回收区
 Camera: Free (click for Orbit)|视角：自由（点击切换环绕）
-Camera: Orbit (click for Free) [|视角：环绕（点击切换自由）［
+Camera: Orbit (click for Free) [|视角：环绕（点击切换自由） [
 ASMB (click for Local)|装配坐标（点击切换局部坐标）
 Local (click for ASMB)|局部坐标（点击切换装配坐标）
 Snap camera to back view|切换至后视图

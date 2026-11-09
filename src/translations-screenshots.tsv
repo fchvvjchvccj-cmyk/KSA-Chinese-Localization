@@ -3,7 +3,7 @@ Bodies|天体
 Manifest|宇宙清单
 Next|下一个
 Previous|上一个
-Okay|好的
+Okay|确定
 HUD|仪表
 Hard|硬阴影
 Pcf|平滑阴影（PCF）
@@ -74,7 +74,7 @@ Calls|调用次数
 Canopies|伞面
 CascadeInfo|级联信息
 Catalog|目录
-Charge|充电
+Charge|电量
 Chest|胸部
 Clusters|聚类
 Columns|列
@@ -291,15 +291,15 @@ Engines (|发动机（
 engine)|台发动机）
 engines)|台发动机）
 fallback|备用
-Burn [|机动［
+Burn [|机动 [
 dents|凹陷
-Departure]|离轨］
+Departure]|出发]
 ENTRIES|条记录
 ENTRY|条记录
 Frame:|帧：
 items)|个项目）
-KITTEN|只猫咪
-LOST|失联
+KITTEN|名小猫航天员
+LOST|殉职
 m/s SHORT|m/s 缺口
 SHORT|缺口
 ms total|ms 总计
@@ -322,11 +322,11 @@ Coarse|粗略
 CONTINUE|继续
 CORRECTION|修正
 diffuse|漫反射
-Disabled [|已禁用［
+Disabled [|已禁用 [
 Dock|对接
 Dynamic|动态
 Enable|启用
-Enabled [|已启用［
+Enabled [|已启用 [
 Event|事件
 Fine|精细
 Flail|挥动四肢
@@ -347,7 +347,7 @@ no controlled vehicle|没有正在控制的载具
 no nearby celestial below camera|摄像机下方没有附近天体
 no nearby celestial to anchor the A/B fire|附近没有可作为 A/B 触发锚点的天体
 no nearby celestial to anchor the camera fire|附近没有可作为摄像机触发锚点的天体
-no system loaded|未加载恒星系
+no system loaded|未加载天体系统
 Nozzle on|喷管所在部件
 open|打开
 Patch|轨道段

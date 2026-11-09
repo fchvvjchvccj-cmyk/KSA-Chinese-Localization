@@ -290,7 +290,7 @@
     <comment>原文：Change resource group</comment>
   </data>
   <data xml:space="preserve" name="EditorHistorySequence">
-    <value>更改序列</value>
+    <value>更改级序列</value>
     <comment>原文：Change sequence</comment>
   </data>
   <data xml:space="preserve" name="EditorHistoryStaging">
@@ -338,7 +338,7 @@
     <comment>原文：Canopy Color</comment>
   </data>
   <data xml:space="preserve" name="EditorSettingCharge">
-    <value>充电</value>
+    <value>电量</value>
     <comment>原文：Charge</comment>
   </data>
   <data xml:space="preserve" name="EditorSettingContents">
@@ -946,7 +946,7 @@
     <comment>原文：Celestial Names</comment>
   </data>
   <data xml:space="preserve" name="SettingsInterfaceCrewPortraitCameras">
-    <value>成员肖像视角</value>
+    <value>乘员肖像视角</value>
     <comment>原文：Crew Portrait Cameras</comment>
   </data>
   <data xml:space="preserve" name="SettingsInterfaceEditorHideEdgeOnRotationRings">

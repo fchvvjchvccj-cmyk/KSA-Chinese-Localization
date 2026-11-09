@@ -18,7 +18,7 @@ Edit fuel line|编辑燃料管线
 Change flow rule|更改流动规则
 Change resource group|更改资源组
 Change staging|更改分级
-Change sequence|更改序列
+Change sequence|更改级序列
 Change part settings|更改部件设置
 Part Variant|部件变体
 Refill|补充
@@ -117,7 +117,7 @@ Incapacitated|失去行动能力
 Dead|死亡
 CO₂ scrubber|二氧化碳吸收器
 food|食物
-Short of air|缺氧
+Short of air|空气不足
 High CO₂|二氧化碳过高
 Thirsty|口渴
 Hungry|饥饿
@@ -128,7 +128,7 @@ No food|缺少食物
 Ground impact|撞击地面
 Ocean impact|撞击海面
 Collision|碰撞
-Aerodynamic forces|气动力
+Aerodynamic forces|气动力过大
 Hydrodynamic forces|水动力过大
 Fall|坠落
 Abandoned|被遗弃
@@ -142,7 +142,7 @@ Every radiation dose a kitten has ever received. It never heals.|小猫航天员
 How long a kitten needs resting at home for its acute dose to heal away.|小猫航天员回到基地后，急性剂量完全消退所需的休息时间。
 A kitten with radiation sickness can fly again sooner, once its acute dose is below|患辐射病的小猫航天员可在急性剂量降到以下数值后提前复飞：
 How a kitten is suffering from a missing life support supply: degraded, then incapacitated, then dead.\nA degraded kitten refuses to EVA. An incapacitated kitten cannot move seats or fly.|缺乏生命保障物资会使小猫航天员的状况依次恶化、失去行动能力，最后死亡。\n状况恶化时将拒绝舱外活动；失去行动能力时无法换座或驾驶。
-VIEWING|当前视角
+VIEWING|查看对象
 SCOPE|显示范围
 OFFSET X|X 偏移
 OFFSET Y|Y 偏移
@@ -153,7 +153,7 @@ Draw each magnetised body's radiation belts, field lines, magnetopause and bow s
 SPACE WEATHER|太空天气
 Draw each star's active regions, the magnetic field line from the star to what you are viewing, and CMEs in flight. A CME's front is drawn where its forecast puts it, between its earliest and latest arrival.|显示各恒星的活动区、从恒星到当前观测目标的磁力线，以及传播中的日冕物质抛射。抛射前沿按预计位置绘制，到达时间介于预报的最早与最晚时间之间。
 Release|解除
-CAMERA|相机
+CAMERA|视角
 Focus Vehicle|聚焦载具
 MAP CONTROL|地图控制
 VEHICLE CONTROL|载具控制
@@ -225,12 +225,12 @@ Compute Tessellation|计算曲面细分
 Terrain Pre-Pass|地形预处理
 Atm pressure (Pa)|大气压（Pa）
 Radius error fraction|半径误差比例
-Coarse refs|粗略引用
+Coarse refs|粗网格引用
 Voxel refs|体素引用
 No empty seat in this zone|此区没有空座位
 CME launched from|日冕物质抛射源自
 Major flare on|强耀斑发生于
-, arriving in|，预计到达时间：
+, arriving in|，距预计到达还有
 CME shock reached|日冕物质抛射激波已到达
 nT north|nT，向北
 nT south|nT，向南
@@ -263,8 +263,8 @@ ACTIVITY|活动度
 COSMIC RAYS|宇宙射线
 CME RATE|日冕物质抛射频率
 When off, the crew cannot draw supplies from this tank.|关闭后，乘员无法从此储箱取用物资。
-Min Curvature (1/km)|最小曲率 (1/km)
-Max Curvature (1/km)|最大曲率 (1/km)
+Min Curvature (1/km)|最小曲率（1/km）
+Max Curvature (1/km)|最大曲率（1/km）
 Curvature Texel Spacing|曲率纹素间距
 X = Terrain Mean Curvature (1/km, negative is concave), Y = Density|X = 地形平均曲率（1/km，负值表示凹陷），Y = 密度
 Curvature Density Curve|曲率密度曲线

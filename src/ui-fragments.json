@@ -59,6 +59,13 @@
     "A kitten with radiation sickness can fly again sooner, once its acute dose is below ": "急性剂量低于以下数值时，患辐射病的小猫航天员可提前复飞：",
     " Sv.": " Sv。"
   },
+  "KSA.KittenRosterWindow/Window::DrawConsoleFooter": {
+    " KITTENS": " 名小猫航天员",
+    " KITTEN": " 名小猫航天员"
+  },
+  "KSA.GameSaves/GameSavesWindow::DrawConsoleFooter": {
+    " SAVE": " 份存档"
+  },
   "KSA.LifeSupportForecast::AppendZone": {
     " · zone ": " · 居住区 "
   },
@@ -73,6 +80,7 @@
   },
   "KSA.Part::DrawPartInfo": {
     "Tank '": "储箱 '",
+    "Habitat '": "居住区 '",
     "Grain Segment '": "药柱段 '",
     "Engine Core '": "发动机核心 '",
     "Nozzle '": "喷管 '"

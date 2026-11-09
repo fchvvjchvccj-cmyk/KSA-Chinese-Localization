@@ -92,8 +92,8 @@ HUDLayout8|仪表布局 8
 HUDLayout9|仪表布局 9
 Screenshot|截图
 ToggleRCS|切换 RCS
-ToggleKittenRoster|切换猫咪名单
-ToggleCrewAssignment|切换成员分配
+ToggleKittenRoster|切换小猫航天员名单
+ToggleCrewAssignment|切换乘员分配
 Grab|抓握
 Board|登舱
 Control From Here:|从此处控制：
@@ -104,7 +104,7 @@ Always Check|始终检查
 AUTO GROUPS|自动分组
 Confirm Mods|确认模组
 Context Assignments|上下文分配
-Crew Assignment|成员分配
+Crew Assignment|乘员分配
 Gauge Hierarchy|仪表层级
 Gauge Inspector|仪表检查器
 Kitten Locomotion Tuning|猫咪运动参数
@@ -184,7 +184,7 @@ Burn Control|点火机动控制
 Burn Editor|点火机动编辑器
 Carbon Dioxide|二氧化碳
 Carbon Fiber|碳纤维
-Crew Portraits|成员肖像
+Crew Portraits|乘员肖像
 Double-Base|双基推进剂
 Engine Control|发动机控制
 Ethanol + HTP|乙醇与高浓度过氧化氢
@@ -200,10 +200,10 @@ MMH + NTO|单甲基肼与四氧化二氮
 Maraging Steel 300|300 马氏体时效钢
 Methane + Oxygen|甲烷与氧
 Navball|姿态球
-Neutral|恒速燃烧
+Neutral|恒面燃烧
 Nitrogen|氮
-Progressive|增速燃烧
-Regressive|减速燃烧
+Progressive|增面燃烧
+Regressive|减面燃烧
 Rendezvous Control|交会控制
 Stainless Steel 304L|304L 不锈钢
 Titanium Alloy 6-4|6-4 钛合金

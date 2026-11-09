@@ -21,7 +21,7 @@ CoreCouplingA_Prefab_DecouplerHalfWB|分离器 0.5WB
 CoreCouplingA_Prefab_DecouplerQuarterWA|分离器 0.25WA
 CoreCouplingA_Prefab_DecouplerQuarterWB|分离器 0.25WB
 CoreCouplingA_Prefab_DockingPort1WA|对接端口 1WA
-CoreCouplingA_Prefab_DockingPort1WAndrogynousA|无性别对接端口 1W-A
+CoreCouplingA_Prefab_DockingPort1WAndrogynousA|异体同构对接端口 1W-A
 CoreCouplingA_Prefab_DockingPort1WB|对接端口 1WB
 CoreCouplingA_Prefab_DockingPort1WC|对接端口 1WC
 CoreElectricalA_Prefab_BayFuelcellSmall|小型舱内燃料电池
@@ -78,8 +78,8 @@ CoreFairingA_Prefab_InterstageBridgePetal1WHalfWA|瓣式级间转接段 1W0.5WA
 CoreFairingA_Prefab_InterstageBridgePetal2W1WA|瓣式级间转接段 2W1WA
 CoreFairingA_Prefab_InterstageHalfW1HA|级间段 0.5W1HA
 CoreFairingA_Prefab_InterstageHalfW1HA1|级间段 0.5W1HA1
-CoreFairingA_Prefab_Nosecone05WBallisticA|弹道型鼻锥 05W-A
-CoreFairingA_Prefab_Nosecone05WBluntA|钝头型鼻锥 05W-A
+CoreFairingA_Prefab_Nosecone05WBallisticA|弹道型鼻锥 0.5W-A
+CoreFairingA_Prefab_Nosecone05WBluntA|钝头型鼻锥 0.5W-A
 CoreFairingA_Prefab_Nosecone1WBallisticA|弹道型鼻锥 1W-A
 CoreFairingA_Prefab_Nosecone1WBluntA|钝头型鼻锥 1W-A
 CoreFairingA_Prefab_Nosecone1WCantedA|偏斜型鼻锥 1W-A
@@ -231,11 +231,11 @@ CoreServiceModuleA_Prefab_SetAHeightB|服务舱 B
 CoreServiceModuleA_Prefab_SetAHeightC|服务舱 C
 CoreServiceModuleA_Prefab_SetAHeightD|服务舱 D
 CoreStructuralA_Prefab_BridgingAdapter1WHalf|转接段 1W0.5
-CoreStructuralA_Prefab_BridgingAdapter2HalfW2W|转接段 20.5W2W
+CoreStructuralA_Prefab_BridgingAdapter2HalfW2W|转接段 2.5W2W
 CoreStructuralA_Prefab_BridgingAdapter2W1W|转接段 2W1W
 CoreStructuralA_Prefab_BridgingAdapter3W2W|转接段 3W2W
 CoreStructuralA_Prefab_BridgingAdapterHollow1WHalf|中空转接段 1W0.5
-CoreStructuralA_Prefab_BridgingAdapterHollow2HalfW2W|中空转接段 20.5W2W
+CoreStructuralA_Prefab_BridgingAdapterHollow2HalfW2W|中空转接段 2.5W2W
 CoreStructuralA_Prefab_BridgingAdapterHollow2W1W|中空转接段 2W1W
 CoreStructuralA_Prefab_BridgingAdapterHollow3W2W|中空转接段 3W2W
 CoreStructuralA_Prefab_EnginePlate05WQuad2WA|发动机安装板 05WQuad2WA
@@ -289,8 +289,8 @@ CoreStructuralA_Prefab_RadialDecouplerSmallA|小型径向分离器 A
 CoreStructuralA_Prefab_StrutA|支撑杆 A
 CoreStructuralA_Prefab_StrutB|支撑杆 B
 CoreStructuralA_Prefab_StrutC|支撑杆 C
-CoreStructuralA_Prefab_StrutCubeHalfW1HalfHA|方形支架 0.5W10.5HA
-CoreStructuralA_Prefab_StrutCubeHalfW1HalfHB|方形支架 0.5W10.5HB
+CoreStructuralA_Prefab_StrutCubeHalfW1HalfHA|方形支架 0.5W1.5HA
+CoreStructuralA_Prefab_StrutCubeHalfW1HalfHB|方形支架 0.5W1.5HB
 CoreStructuralA_Prefab_StrutCubeHalfWHalfHA|方形支架 0.5W0.5HA
 CoreStructuralA_Prefab_StrutCubeHalfWHalfHB|方形支架 0.5W0.5HB
 CoreStructuralA_Prefab_StrutCubeNodeHalfWHalfHA|方形支架节点 0.5W0.5HA

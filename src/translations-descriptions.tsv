@@ -28,7 +28,7 @@ The standard oxidizer: high-performance and non-toxic, though it must be kept cr
 Vital for life support, abundantly available, may be used as reaction mass in a pinch.|生命保障所必需，资源丰富，必要时也可用作推进工质。
 A dense, cheap noble gas for cold-gas or electric thrusters where storage density beats efficiency.|密度高、价格低的稀有气体，适用于储存密度比效率更重要的冷气或电推进器。
 A cheaper, denser alternative to xenon for ion thrusters, trading some efficiency for cost.|离子推进器中氙的替代品，价格更低、密度更高，以降低部分效率换取成本优势。
-The premier ion-thruster propellant - dense and easily ionized - but rare and expensive.|优良的离子推进剂，密度高且易于电离，但稀有而昂贵。
+The premier ion-thruster propellant - dense and easily ionized - but rare and expensive.|首选的离子推进器推进剂，密度高且易于电离，但稀有而昂贵。
 A flammable combustion by-product; rarely chosen deliberately, but a usable in-situ fuel.|可燃的燃烧副产物，很少被主动选作燃料，但可作为就地获取的燃料使用。
 Dense, inert, and easily gathered in-situ, making it a convenient if low-performance reaction mass.|密度高、性质稳定且容易就地获取，是方便但性能较低的推进工质。
 A dense, clean-burning cryogen that resists coking and can be made in-situ.|密度高、燃烧洁净且不易结焦的低温燃料，可以就地生产。
@@ -66,12 +66,12 @@ Click empty space to cancel.|点击空白处取消。
 You are currently in a game, are you sure you want to load '|当前正在游玩，确定要加载存档“
 Circularize|将轨道圆化
 Right-click orbits to create more than one chained burn.|右键点击轨道可创建多个相互衔接的机动。
-Right-click orbits to create departure burns.|右键点击轨道可创建离轨机动。
+Right-click orbits to create departure burns.|右键点击轨道可创建出发机动。
 The oxidizer-to-fuel mass ratio fed to the combustion chamber.\nTypical value for this mixture:|送入燃烧室的氧化剂与燃料质量比。\n此推进剂组合的典型值：
 Left-click to add a point\nDrag points to move them\nDouble-right-click a point to delete it\nMiddle-drag to pan, right-drag to zoom\nDouble-middle-click to reset pan/zoom|左键点击添加控制点\n拖动控制点移动位置\n右键双击控制点删除\n按住中键拖动平移，按住右键拖动缩放\n中键双击重置平移和缩放
 This can take 10+ minutes on 5000/6000 series AMD GPUs on Windows.|在 Windows 系统上的 AMD 5000/6000 系列显卡中，这可能需要 10 分钟以上。
 items selected — use viewport handles to move/resize.|个项目已选中——使用视图中的操纵柄移动或调整大小。
-(0 = treading, 1 = swim; the played weight lerps toward this)|(0 表示踩水，1 表示游泳；动画混合权重会逐渐趋近此值)
+(0 = treading, 1 = swim; the played weight lerps toward this)|（0 表示踩水，1 表示游泳；动画混合权重会逐渐趋近此值）
 m, so dents on coarse meshes will be shallower.|m，因此较粗网格上的凹陷会更浅。
 ms x area = impulse that part took|毫秒 × 面积 = 部件承受的冲量
 parts, no contact data yet - ratings only|个部件，尚无接触数据，仅显示耐受值
@@ -86,8 +86,8 @@ solid grain, unburnable|固体药柱，无法燃烧
 m/s, burn time|m/s，燃烧时间
 In Tangent:|入切线：
 Out Tangent:|出切线：
-] Unnamed Modifier|］未命名修改器
-debris objects in this system?|个此恒星系中的残骸对象？
+] Unnamed Modifier|] 未命名修改器
+debris objects in this system?|个本天体系统中的碎片吗？
 - Set Orbit|— 设置轨道
 - Flight Computer|— 飞行计算机
 GRAVITATION|引力

@@ -31,7 +31,7 @@ General Settings|常规设置
 Generate Color|生成颜色
 Generate Maps|生成贴图
 Generation Range|生成范围
-Generator Active:|发电机状态：
+Generator Active:|发电机运行中：
 Global Intensity|全局强度
 Global Mechanics|全局力学
 Grain Burned:|药柱已燃烧量：
@@ -61,7 +61,7 @@ HYDROGEN USED|氢用量
 Ignition Thrust:|点火推力：
 Ignore Safety Checks|忽略安全检查
 Impact with:|撞击目标：
-In:|输入：
+In:|倒计时：
 In|输入
 Out|输出
 Inert Mass|惰性质量
@@ -133,10 +133,10 @@ New Canvas|新建画布
 NEW VEHICLE ANYWAY|仍然新建载具
 NEW VEHICLE?|新建载具？
 NO CORRECTION FOUND|未找到修正方案
-NO CREW ASSIGNED|未分配成员
+NO CREW ASSIGNED|未分配乘员
 No controlled vehicle.|没有受控载具。
 No ground track available for this vehicle.|此载具没有可用的地面轨迹。
-No kittens have been assigned to any seat. Launch anyway?|尚未向任何座位分配猫咪。仍然发射吗？
+No kittens have been assigned to any seat. Launch anyway?|尚未向任何座位分配小猫航天员。仍然发射吗？
 No target set.|未设置目标。
 No vehicle|没有载具
 No vehicle selected in the editor.|编辑器中未选择载具。
@@ -163,14 +163,14 @@ Optimum Expansion Pressure|最佳膨胀压力
 Optimum expansion occurs when nozzle exhaust pressure equals the ambient pressure. In this regime, exhaust flows almost directly away from the nozzle without spreading out.|喷管排气压力等于环境压力时达到最佳膨胀。此时尾气几乎沿喷管轴线排出，不会明显向外扩散。
 Orbit Closest Approach|轨道最近接近
 ORBIT TYPE|轨道类型
-ORBITAL PERIOD|公转周期
+ORBITAL PERIOD|轨道周期
 ORBITAL SPEED|轨道速度
 Orientation Mode|姿态模式
 Other Data|其他数据
 Override Is Controllable|强制可控制
 Override settings|覆盖设置
 OVERWRITE LAYOUT|覆盖布局
-Panel Active:|面板状态：
+Panel Active:|面板工作中：
 Part Contact Load|部件接触载荷
 Paste Rect|粘贴矩形
 Paste Transform|粘贴变换
@@ -180,7 +180,7 @@ Path:|路径：
 Performance Data|性能数据
 Physical settings|物理设置
 Physics Tuning (selected chute)|物理参数（选定降落伞）
-Place Mode [|放置模式［
+Place Mode [|放置模式 [
 Please enter a filename to continue.|请输入文件名后继续。
 Position Only|仅位置
 Position X|位置 X
@@ -190,7 +190,7 @@ Position:|位置：
 Positions: OFF|位置：关闭
 Positions: ON|位置：开启
 Post-burn Closest Approach|机动后最近接近
-Power Consumption Active:|用电状态：
+Power Consumption Active:|正在耗电：
 PRESS A KEY OR MOUSE BUTTON|请按键盘按键或鼠标按钮
 Pressure at which the combustion products exit the combustor.|燃烧产物离开燃烧室时的压力。
 Pressure at which the propellants are burned.|推进剂燃烧时的压力。
@@ -244,7 +244,7 @@ Roll Up|向上滚转
 Rotate Camera|旋转视角
 Rotation (Deg)|旋转（°）
 Rotation (Quat: WXYZ)|旋转（四元数：WXYZ）
-Rotation Mode [|旋转模式［
+Rotation Mode [|旋转模式 [
 Rotation Speed|旋转速度
 Save Current Layout|保存当前布局
 SAVE GAME|保存游戏
@@ -255,7 +255,7 @@ Save XML|保存 XML
 Scale (XYZ)|缩放（XYZ）
 Scale children on resize|调整大小时缩放子项
 Scale Handles|缩放手柄
-Scale Mode [|缩放模式［
+Scale Mode [|缩放模式 [
 Scale:|缩放：
 Scope:|范围：
 Sea-level pressure (atm)|海平面压力（atm）
@@ -303,7 +303,7 @@ Inclination|轨道倾角
 Eccentricity|离心率
 Semi-Major Axis|半长轴
 Semi-Minor Axis|半短轴
-Orbital Period|公转周期
+Orbital Period|轨道周期
 Orbital Speed|轨道速度
 Sphere of Influence|引力影响范围
 Reference Frame|参考系
