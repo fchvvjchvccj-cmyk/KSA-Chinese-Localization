@@ -95,3 +95,11 @@ powershell.exe -NoProfile -ExecutionPolicy Bypass -File .\scripts\install.ps1 -A
 - `tools/build-distribution.py`：维护者从本地已验证的汉化工作区重新生成发布文件的工具，需要 Python；普通玩家不需要运行。
 
 本项目为非官方汉化，游戏名称及游戏资源归原权利人所有。请自行取得游戏。
+
+## 许可证
+
+本项目有权授权的原创内容（包括汉化运行库、安装与构建工具，以及汉化文本中本项目有权授权的部分）采用双许可：你可以任选 [MIT](LICENSE-MIT) 或 [GNU GPL v3.0（仅限第 3 版）](LICENSE-GPL-3.0)，并遵守所选许可证的条款。
+
+SPDX 许可表达式：`MIT OR GPL-3.0-only`。
+
+本授权不涵盖 KSA 游戏本体、游戏原文、游戏素材、差分补丁中源自原游戏的内容，或任何其他第三方内容。这些内容仍受各自权利人的条款约束。
