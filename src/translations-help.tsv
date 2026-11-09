@@ -157,7 +157,7 @@ MinHeight:|最小高度：
 Multiplies (line length + diameter) for the max distance any node may sit from the pin. Guards against runaway line stretch.|节点距固定点的最大距离等于（绳长 + 直径）乘以此值，用于防止绳索无限拉伸。
 Multiplies Tumble Traction Pair Friction as the kitten rolls nose-down, so a face-plant digs in instead of skating. Full value at muzzle-into-terrain, fading to 1x at nose-level and above. 1 = no boost.|猫咪向前翻倒时，对翻滚接触摩擦乘以此值，防止面朝下落地时滑行。面部朝地时作用最大，机头水平或朝上时降为 1 倍。1 表示不增强。
 No BVH available - your device is using raytracing instead.|没有可用包围体层次，设备正在使用光线追踪。
-No BVH available for ground clutter generation.|地表杂物生成没有可用包围体层次。
+No BVH available for ground clutter generation.|地表散布物生成没有可用包围体层次。
 No lit pixels.|没有受光像素。
 Nominal speed (m/s) the run-gait nominal lerps toward as the moonwalk weight rises.|月面步态权重增加时，跑步标称速度趋近的值（m/s）。
 Nominal speed (m/s) the walk-gait nominal lerps toward as the moonwalk weight rises.|月面步态权重增加时，步行标称速度趋近的值（m/s）。

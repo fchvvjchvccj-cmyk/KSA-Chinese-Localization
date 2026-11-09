@@ -40,7 +40,7 @@ Grain Shape:|药柱形状：
 Gravity:|重力：
 Ground Speed (tangential):|地面速度（切向）：
 Ground Track|地面轨迹
-Ground Clutter generation is disabled in the graphics settings.|图形设置中已禁用地表杂物生成。
+Ground Clutter generation is disabled in the graphics settings.|图形设置中已禁用地表散布物生成。
 Group|分组
 Height (m)|高度（m）
 Height Options:|高度选项：
@@ -236,7 +236,7 @@ Right-click to expand|右键展开
 Right-click to focus|右键聚焦
 Right-click to unfocus|右键取消聚焦
 Riser Length|吊带长度
-Role Affinity:|角色适应度：
+Role Affinity:|供给对象：
 Roll Decouple|滚转解耦
 Roll Down|向下滚转
 Roll Target|滚转目标

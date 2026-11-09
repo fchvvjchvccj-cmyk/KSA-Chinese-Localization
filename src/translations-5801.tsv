@@ -1,5 +1,5 @@
 Life support low|生命保障物资不足
-Tank transfer requires electrical power|储箱转移需要电力
+Tank transfer requires electrical power|在储箱之间转移资源需要电力
 Tank transfer blocked: use is disabled on the source tank|无法转移：源储箱已禁用资源供给
 Cannot load {Vehicle}: it uses parts that no longer exist ({Parts})|无法加载 {Vehicle}：使用的部件已不存在（{Parts}）
 Cannot load {Vehicle}: its parts have changed since it was saved|无法加载 {Vehicle}：部件在保存后发生了变化
@@ -22,7 +22,7 @@ Change sequence|更改序列
 Change part settings|更改部件设置
 Part Variant|部件变体
 Refill|补充
-Role Affinity|用途偏好
+Role Affinity|供给对象
 Supply Use|物资供给
 Volume - {Substance}|容积 - {Substance}
 Meals|餐食
@@ -35,7 +35,7 @@ HDR Peak Brightness|HDR 峰值亮度
 Aurora|极光
 Aurora quality|极光质量
 Every kitten aboard is incapacitated and there is no probe core.|舱内所有小猫航天员均已失去行动能力，且载具没有探测器核心。
-no system can be listed: every system failed to load, see the content errors|所有星系均加载失败，无法列出可选星系。请查看内容错误。
+no system can be listed: every system failed to load, see the content errors|所有天体系统均加载失败，无法列出可选系统。请查看内容加载错误。
 Radiation|辐射
 Life Support|生命保障
 Panels|结构面板
@@ -68,7 +68,7 @@ Too far away to reach|距离太远，无法触及
 This suit has no room to carry supplies|航天服没有空间携带物资
 Nothing here to carry|这里没有可取的物资
 Supplies|物资
-No supply storage within reach.|附近没有可用的物资储藏处。
+No supply storage within reach.|够不到任何物资储存部件。
 Storage|储藏处
 Take|取出
 Stow|存放
@@ -79,7 +79,7 @@ canister|个吸收罐
 Boarding throws away what won't fit:|登舱时将丢弃放不下的物资：
 meal|份餐食
 Too unwell to go on EVA|身体状况不佳，无法进行舱外活动
-No oxygen or CO₂ canisters to fill the suit|没有可用于补充航天服的氧气或二氧化碳吸收罐
+No oxygen or CO₂ canisters to fill the suit|没有可补给航天服的氧气或二氧化碳吸收罐
 Presents in HDR on this screen. The scene always uses the GT7 tonemapper in HDR, the Tonemapper setting only applies to SDR.|在此屏幕上以 HDR 显示。HDR 始终使用 GT7 色调映射器；色调映射设置仅对 SDR 生效。
 How HDR frames are sent to the screen. Auto uses HDR10 where the screen offers it, otherwise scRGB. A format the screen doesn't offer falls back to the other. This screen offers scRGB and HDR10.|指定向屏幕发送 HDR 画面的方式。自动模式在支持 HDR10 时优先使用 HDR10，否则使用 scRGB。选择屏幕不支持的格式时会切换到另一种。本屏幕支持 scRGB 和 HDR10。
 How HDR frames are sent to the screen. Auto uses HDR10 where the screen offers it, otherwise scRGB. A format the screen doesn't offer falls back to the other. This screen offers scRGB only.|指定向屏幕发送 HDR 画面的方式。自动模式在支持 HDR10 时优先使用 HDR10，否则使用 scRGB。选择屏幕不支持的格式时会切换到另一种。本屏幕只支持 scRGB。
@@ -91,12 +91,12 @@ Habitat Zones|居住区
 No vehicle.|当前没有载具。
 This vehicle has no habitable parts.|此载具没有可居住的部件。
 Highlight all zones|高亮所有区域
-Highlight lead|高亮负责人
-each|每份
+Highlight lead|高亮主部件
+each|每个
 Habitable|可居住
 Stored|已储存
 Carried|随身携带
-seats, none assigned|个座位，无人分配
+seats, none assigned|个座位，未分配乘员
 Lasts|可维持
 Move|移动
 From|来源
@@ -107,7 +107,7 @@ No kitten in this zone to move supplies|此区没有可转移物资的小猫航�
 Every kitten in this zone is incapacitated|此区所有小猫航天员均已失去行动能力
 Nothing stored here to move|此处没有可转移的物资
 None to move|无物资可转移
-No storage: this crew has no food or CO₂ canisters|没有可用储藏处：本组没有餐食或二氧化碳吸收罐
+No storage: this crew has no food or CO₂ canisters|没有可用的储存部件：本区乘员没有餐食或二氧化碳吸收罐
 No meals stored in this zone|此区未储存餐食
 No CO₂ canisters stored in this zone|此区未储存二氧化碳吸收罐
 Healthy|健康
@@ -121,7 +121,7 @@ Short of air|缺氧
 High CO₂|二氧化碳过高
 Thirsty|口渴
 Hungry|饥饿
-No oxygen|缺氧致死
+No oxygen|缺氧
 No CO₂ scrubber|缺少二氧化碳吸收器
 No water|缺水
 No food|缺少食物
@@ -129,7 +129,7 @@ Ground impact|撞击地面
 Ocean impact|撞击海面
 Collision|碰撞
 Aerodynamic forces|气动力
-Hydrodynamic forces|流体动力
+Hydrodynamic forces|水动力过大
 Fall|坠落
 Abandoned|被遗弃
 Double-click an assigned vehicle to follow it. Click a column header to sort the roster. Recovery is how long a kitten needs resting at home for its acute dose to heal.|双击已分配的载具可跟随它。点击列标题可排序。恢复时间是指小猫航天员回到基地休息，直到急性剂量消退所需的时间。
@@ -164,7 +164,7 @@ Meals:|餐食：
 CO₂ Canisters:|二氧化碳吸收罐：
 Air|空气
 Habitat Zone:|居住区：
-Zone Lead:|区域负责人：
+Zone Lead:|主部件：
 This part|此部件
 Kittens In Zone:|区内小猫航天员：
 Air Left:|空气剩余：
@@ -176,7 +176,7 @@ Pressure:|压力：
 Rated Pressure:|额定压力：
 Radiation Shield|辐射屏蔽
 Shield Mass|屏蔽层质量
-Tank Cover|储箱遮蔽
+Tank Cover|储箱提供的遮蔽
 Unshielded|无屏蔽
 Solar Wind|太阳风
 Distance to Star:|距恒星距离：
@@ -185,7 +185,7 @@ Freefall Event|自由落体事件
 Collision Prediction|碰撞预测
 Collision Detection|碰撞检测
 Gimbal Control|推力矢量控制
-RCS Control|姿态控制推进器控制
+RCS Control|反作用控制系统（RCS）
 Short Physics|短时间尺度物理
 Long Physics|长时间尺度物理
 Rotation Rate|旋转速率
@@ -209,7 +209,7 @@ Rules|规则
 Show Portrait Camera Controls|显示肖像相机控制
 Show Magnetosphere|显示磁层
 Show Space Weather|显示太空天气
-Show Habitat Lead Debug|显示居住区负责人调试
+Show Habitat Lead Debug|显示居住区主部件调试信息
 Radiation dose rate here, unshielded, in millisieverts per hour.|当前位置无屏蔽时的辐射剂量率，单位为毫希沃特每小时。
 Radiation dose rate here, unshielded, in sieverts per hour.|当前位置无屏蔽时的辐射剂量率，单位为希沃特每小时。
 Radiation dose rate averaged over the current orbit, unshielded, in millisieverts per hour.|沿当前轨道平均的无屏蔽辐射剂量率，单位为毫希沃特每小时。
@@ -223,7 +223,7 @@ Add Emitter|添加发射器
 Add Volume|添加体积区域
 Compute Tessellation|计算曲面细分
 Terrain Pre-Pass|地形预处理
-Atm pressure (Pa)|大气压力 (Pa)
+Atm pressure (Pa)|大气压（Pa）
 Radius error fraction|半径误差比例
 Coarse refs|粗略引用
 Voxel refs|体素引用
@@ -251,7 +251,7 @@ No CMEs on the way.|没有正在传播的日冕物质抛射。
 HELIOSPHERE|日球层
 HELIOPAUSE|日球层顶
 WIND PRESSURE AT 1 AU|1 AU 处的恒星风压
-QUIET DOSE AT 1 AU|1 AU 处的静稳期辐射剂量
+QUIET DOSE AT 1 AU|1 AU 处的静稳期辐射剂量率
 ROTATION PERIOD|自转周期
 POLE TILT|磁极倾角
 ACTIVITY CYCLE|活动周期
@@ -270,15 +270,15 @@ X = Terrain Mean Curvature (1/km, negative is concave), Y = Density|X = 地形�
 Curvature Density Curve|曲率密度曲线
 Edge Softness|边缘柔和度
 Noise Strength|噪声强度
-X = Latitude (deg), Y = Reference Altitude (m)|X = 纬度（度），Y = 参考海拔（米）
+X = Latitude (deg), Y = Reference Altitude (m)|X = 纬度（度），Y = 参考高度（米）
 Latitude Curve|纬度曲线
 X = Longitude (deg), Y = Weight|X = 经度（度），Y = 权重
 Longitude Curve|经度曲线
-X = Altitude Above Reference (m), Y = Coverage|X = 高于参考海拔的高度（米），Y = 覆盖率
-Relative Altitude Curve|相对海拔曲线
+X = Altitude Above Reference (m), Y = Coverage|X = 高出参考高度的距离（米），Y = 覆盖率
+Relative Altitude Curve|相对高度曲线
 Radiation sickness\nFit to fly in|辐射病\n距离可复飞还有
 Habitat Storage|居住区储藏
-Which consumer kinds this tank automatically provides for.|指定此储箱自动向哪些类型的用量端供给资源。
+Which consumer kinds this tank automatically provides for.|选择此储箱会自动向哪些设备或生命保障系统供给资源。
 UNDO|撤销
 REDO|重做
 Variant|变体
@@ -300,7 +300,23 @@ Aero mesh dump: no vehicle is being edited or controlled|气动网格导出：�
 Aero mesh dump: no mesh has been built for this vehicle|气动网格导出：此载具尚未生成网格
 Shelf-stable meals in their packaging. A kitten eats 2.39 kg a day.|原包装的常温耐储餐食。每只小猫航天员每天消耗 2.39 kg。
 Granules in disposable canisters that soak up the CO₂ a crew breathes out. A kitten uses 1.27 kg a day.|一次性罐中的颗粒可吸收乘员呼出的二氧化碳。每只小猫航天员每天消耗 1.27 kg。
-The antiparticle twin of hydrogen which annihilates with ordinary matter.|氢的反物质，与普通物质接触时会发生湮灭。
+The antiparticle twin of hydrogen which annihilates with ordinary matter.|氢的反物质对应物（反氢），与普通物质接触会发生湮灭。
 A choking volcanic gas most frequently used to create sulfuric acid.|一种具有窒息性的火山气体，常用于制取硫酸。
 SL-M1 Supply Locker|SL-M1 物资储物柜
 SL-M2 Supply Locker|SL-M2 物资储物柜
+Delta-V|Δv
+DeltaV [VLF]|Δv [VLF]
+Docking Camera|对接视角
+Ignite|点火
+Decouple|分离
+Star|恒星
+Orbit:|轨道：
+Orbit Dose:|轨道平均剂量率：
+Mixture Molar Mass|混合物摩尔质量
+Boundary Height|边界高度
+Sea Level Temperature|海平面温度
+NOT ENOUGH LIFE SUPPORT:|生命保障物资不足：
+CCSFS LC-39A|肯尼迪航天中心 LC-39A
+VSFB LC-4|范登堡太空军基地 LC-4
+Starbase OLM A|星港轨道发射台 A
+Apollo11|阿波罗 11 号

@@ -3,7 +3,7 @@
     "checks":  5,
     "powershellVersion":  "5.1.22621.6133",
     "gameBuild":  "2026.11.10.5801",
-    "manifestSha256":  "3fde4f5e2ef05d0d850468d719303cc225865e76d187d931bfe7ef02dab81407",
+    "manifestSha256":  "f3c1de2d83cb40c8975f7a5c4c9ecf853ed3ebf537a1173f71f421a9c627f2a0",
     "intactPackageAccepted":  true,
     "missingDllReported":  true,
     "mismatchedDllHashesReported":  true,

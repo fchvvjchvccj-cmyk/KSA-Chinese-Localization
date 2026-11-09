@@ -125,6 +125,7 @@ namespace KsaChinese
             if (trimmed.Length == 0) return text;
             if (Texts.TryGetValue(trimmed, out translated))
                 return visible.Substring(0, visible.IndexOf(trimmed, StringComparison.Ordinal)) + translated + visible.Substring(visible.IndexOf(trimmed, StringComparison.Ordinal) + trimmed.Length) + suffix;
+            if (ReviewedValues.Contains(trimmed)) return text;
             // 只替换已审校词条；例如带数值的“Mass: 10 kg”与带型号的部件名。
             var output = new StringBuilder();
             int previous = 0;
@@ -286,6 +287,12 @@ namespace KsaChinese
         public static bool IsChinese()
         {
             return Chinese;
+        }
+
+        // 仅在已核对的拼接位置替换固定文案，动态值和控件标识继续由游戏生成。
+        public static string UiFragment(string original, string translation)
+        {
+            return Chinese ? translation : original;
         }
 
         public static string Native(string key, string original)

@@ -1,6 +1,6 @@
 {
   "gameBuild": "2026.11.10.5801",
-  "translatedEntries": 4133,
+  "translatedEntries": 4149,
   "nativeEntries": 277,
   "originalHashes": {
     "Brutal.ImGui.dll": "a521637c1ca7481438f7887379642386835ada0e04409193ff34a12291dbd8c2",
@@ -11,12 +11,12 @@
   "patchedHashes": {
     "Brutal.ImGui.dll": "a3a3b80063fcbd2921428fdfb29b0cf3017d0e5bb6db5af226dc13fae9c45bc8",
     "KSA.deps.json": "3ccc911bcbb575543ee84d1ddad64de70a18ca48c7afb658948edb160d21edd2",
-    "KSA.dll": "79291215d67faff8fb9a4f6a373f125b0739c46e21fe91598f39504b98c15f73",
-    "KsaChinese.dll": "070fd3c40bb67a3228d2cfebde2d919269db7d37aef22c8db94a17e78817e22b",
+    "KSA.dll": "c46ce45a6b9b5ec669e3650de54079e22248c80d4e4eaeacc324dd494038febd",
+    "KsaChinese.dll": "e4708c88eb351612841e3abaf93f8bffa4bacbe444f317fffa9a1ed619410f9a",
     "localization-language.txt": "67041b817c0b38645c8b100c37ebc2e0da3858fbb32faa4c338621794a666eba",
     "Content/Core/Languages.xml": "3ac65d33f191cbd15534b5149b54889653f4c4ccf4a5bc53f2741738d994136a",
-    "Content/Core/Languages/zh-Hans.resx": "7ef7ac95d4e03b5ff941996ce854c3f1a7551c0871cf0f6b9293846c43737257",
-    "Content/Core/Languages/zh-Hans.ui.json": "d3b8acc532dd543a5b90a91cad6c1376b718b7f73b321c57dc886f14fc99188a"
+    "Content/Core/Languages/zh-Hans.resx": "875856c7d68727f2c97a299d518de28104202f741e98134a089ab1e3f55c9284",
+    "Content/Core/Languages/zh-Hans.ui.json": "d6d10c3aa7fe7e2512de5c967a5eb534118e7622790c086ceaabe1be38e7e470"
   },
   "files": {
     "KsaChinese.dll": "payload/KsaChinese.dll",
@@ -35,12 +35,26 @@
     },
     "KSA.dll": {
       "path": "patches/KSA.dll.ksadelta.gz",
-      "sha256": "2154497a325790203d9eabaee59c5392e3de1878ab5cf2934798d209d4320696"
+      "sha256": "2beeb759fb11fddd73c77e155164173b1545540af94033be39851c19a7e1ceb8"
     },
     "Content/Core/Languages.xml": {
       "path": "patches/Content__Core__Languages.xml.ksadelta.gz",
       "sha256": "9f0c23aee3d75040f3081dbd915729cb9f52399a18b9f25fde5961328395a58a"
     }
   },
-  "localFont": "Content/Fonts/KSA-SimplifiedChinese.ttf"
+  "localFont": "Content/Fonts/KSA-SimplifiedChinese.ttf",
+  "acceptedPreviousHashes": {
+    "KSA.dll": [
+      "79291215d67faff8fb9a4f6a373f125b0739c46e21fe91598f39504b98c15f73"
+    ],
+    "KsaChinese.dll": [
+      "070fd3c40bb67a3228d2cfebde2d919269db7d37aef22c8db94a17e78817e22b"
+    ],
+    "Content/Core/Languages/zh-Hans.resx": [
+      "7ef7ac95d4e03b5ff941996ce854c3f1a7551c0871cf0f6b9293846c43737257"
+    ],
+    "Content/Core/Languages/zh-Hans.ui.json": [
+      "d3b8acc532dd543a5b90a91cad6c1376b718b7f73b321c57dc886f14fc99188a"
+    ]
+  }
 }

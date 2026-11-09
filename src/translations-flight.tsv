@@ -44,10 +44,10 @@ TARGET SPEED|目标速度
 Target Track|目标轨迹
 Targeted Port|选定接口
 Teleport To Apollo 11 Landing Site|传送至阿波罗 11 号着陆点
-Teleport To CCSFS LC-39A|传送至卡纳维拉尔角 LC-39A
+Teleport To CCSFS LC-39A|传送至肯尼迪航天中心 LC-39A
 Teleport To Mars|传送至火星
 Teleport To South Pole|传送至南极
-Teleport To VSFB LC-4|传送至范登堡 LC-4
+Teleport To VSFB LC-4|传送至范登堡太空军基地 LC-4
 Teleport To...|传送至…
 Temperature at which the combustion products exit the combustor. Specific impulse is very strongly affected by this temperature; higher is better.|燃烧产物离开燃烧室时的温度。此温度对比冲影响很大；数值越高越好。
 Temperature at which the propellants are burned.|推进剂燃烧时的温度。
@@ -66,7 +66,7 @@ The listed action will toggle this window open and closed.|所列操作可切换
 The maximum rate of propellant mass that passes through the nozzle.|通过喷管的最大推进剂质量流量。
 The oxidizer-to-fuel mass ratio fed to the combustion chamber.|送入燃烧室的氧化剂与燃料质量比。
 Typical value for this mixture:|此混合物的典型值：
-The pressure inside the combustion chamber at full throttle. Higher pressure produces higher thrust and usually burns more efficiently.|全节流时的燃烧室压力。压力越高，推力越高，燃烧效率通常也更高。
+The pressure inside the combustion chamber at full throttle. Higher pressure produces higher thrust and usually burns more efficiently.|发动机以最大节流设定工作时的燃烧室压力。压力越高，推力越高，燃烧效率通常也越高。
 The pressure of the gas exiting the nozzle.|气体离开喷管时的压力。
 The propellant(s) which this engine burns.|此发动机燃烧的推进剂。
 The ratio of the nozzle exit area to the nozzle throat area.|喷管出口面积与喉部面积的比值。
@@ -157,7 +157,7 @@ Wave speed|波速
 When off, nothing can draw propellant from this tank.|关闭后，任何设备都无法从此储箱抽取推进剂。
 When off, this decoupler is inert and hidden from the sequence window.|关闭后，此分离器不会执行动作，并从级序列窗口中隐藏。
 When off, this decoupler will not fire and is hidden from the sequence window.|关闭后，此分离器不会触发，并从级序列窗口中隐藏。
-Which consumer kinds this tank automatically provides propellant for.|此储箱自动为哪些类型的设备供应推进剂。
+Which consumer kinds this tank automatically provides propellant for.|选择此储箱会自动向哪些设备供给推进剂。
 Will be saved as "|将保存为“
 Will create a new save of the current state with the given name|使用指定名称将当前状态保存为新存档
 Wind direction|风向
@@ -172,7 +172,7 @@ Copy To Clipboard|复制到剪贴板
 Copy XML|复制 XML
 Copy XML to Clipboard|将 XML 复制到剪贴板
 Copy the current selection to the clipboard as XML|将当前选中内容以 XML 格式复制到剪贴板
-Copy Tree|复制树
+Copy Tree|复制装配树
 Y Axis:|Y 轴：
 Z Axis:|Z 轴：
 Yaw Target|偏航目标

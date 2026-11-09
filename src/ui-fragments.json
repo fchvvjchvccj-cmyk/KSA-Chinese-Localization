@@ -1,0 +1,139 @@
+{
+  "KSA.Burn::DrawBurnPatchWindow": {
+    "Patch '": "轨道段 '"
+  },
+  "KSA.FlightPlan::DrawPatchInfo": {
+    "Patch '": "轨道段 '"
+  },
+  "KSA.GroundTrackWindow::DrawIgnitionPoint": {
+    "Ignition T-": "距点火 T-"
+  },
+  "KSA.HabitatZonesWindow/Window::DrawContent": {
+    " each": "／人",
+    " meals": " 份餐食",
+    " meal": " 份餐食",
+    " CO₂ canisters": " 个二氧化碳吸收罐",
+    " kittens": " 名小猫航天员",
+    " kitten": " 名小猫航天员",
+    " seats, none assigned": " 个座位，未分配乘员"
+  },
+  "KSA.HabitatZonesWindow/Window::DrawStorage": {
+    " meals · ": " 份餐食 · ",
+    " canisters": " 个二氧化碳吸收罐"
+  },
+  "KSA.HabitatZonesWindow/Window::DrawTransfer": {
+    " · room for ": " · 还可容纳 ",
+    " meals, ": " 份餐食，",
+    " canisters": " 个二氧化碳吸收罐"
+  },
+  "KSA.KittenConditionUi::Format": {
+    ": no ": "：缺少"
+  },
+  "KSA.KittenConditionUi::AppendTooltip": {
+    "Has ": "已恢复供应：",
+    " again, recovered in ": "，预计恢复还需 ",
+    "No ": "缺少",
+    " for ": "已有 ",
+    ", degraded in ": "；距离状况恶化还有 ",
+    ", incapacitated in ": "；距离失去行动能力还有 ",
+    ", dies in ": "；距离死亡还有 "
+  },
+  "KSA.KittenEva::DrawLadderPrompt": {
+    "] Let go": "] 松手",
+    "] Grab": "] 抓住扶手",
+    "] Board": "] 登舱",
+    "] Supplies": "] 物资"
+  },
+  "KSA.KittenRosterWindow/Window::.cctor": {
+    "Radiation dose that heals over time, with a half-life of ": "急性剂量会随时间消退。半衰期：飞行中为 ",
+    " days in flight ": " 天，",
+    "and ": "在基地休息时为 ",
+    " days resting at home.\n": " 天。\n",
+    "At ": "剂量达到 ",
+    " Sv a kitten has radiation sickness and is grounded until it heals below ": " Sv 时，小猫航天员会患辐射病并停飞，直到急性剂量降至 ",
+    " Sv.\n": " Sv 以下。\n",
+    " Sv it dies.": " Sv 时会死亡。",
+    "Every radiation dose a kitten has ever received. It never heals.\n": "小猫航天员曾受到的全部辐射剂量，不会消退。\n",
+    " Sv a kitten finishes its current flight and then retires.": " Sv 时，小猫航天员会在本次飞行结束后退役。",
+    "How long a kitten needs resting at home for its acute dose to heal away.\n": "小猫航天员在基地休息至急性剂量消退所需的时间。\n",
+    "A kitten with radiation sickness can fly again sooner, once its acute dose is below ": "急性剂量低于以下数值时，患辐射病的小猫航天员可提前复飞：",
+    " Sv.": " Sv。"
+  },
+  "KSA.LifeSupportForecast::AppendZone": {
+    " · zone ": " · 居住区 "
+  },
+  "KSA.LifeSupportForecast::AppendSpan": {
+    " min": " 分钟",
+    " h": " 小时",
+    " d": " 天",
+    " yr": " 年"
+  },
+  "KSA.OrbitHoverReadout::DrawVehicleReadout": {
+    "Orbit Dose: ": "轨道平均剂量率："
+  },
+  "KSA.Part::DrawPartInfo": {
+    "Tank '": "储箱 '",
+    "Grain Segment '": "药柱段 '",
+    "Engine Core '": "发动机核心 '",
+    "Nozzle '": "喷管 '"
+  },
+  "KSA.RadiationShield::DrawPartInfo": {
+    " g/cm²": " g/cm^2",
+    "% of sky": "% 天空覆盖率"
+  },
+  "KSA.SeatPicker::AppendSeatName": {
+    " · Seat ": " · 座位 "
+  },
+  "KSA.SequenceList::DrawSequenceContent": {
+    " seats, none assigned": " 个座位，未分配乘员",
+    " seat, none assigned": " 个座位，未分配乘员",
+    " kittens assigned": " 名已分配的小猫航天员",
+    " kitten assigned": " 名已分配的小猫航天员"
+  },
+  "KSA.SpaceWeatherAlerts::RaiseAlerts": {
+    "CME launched from ": "日冕物质抛射源自 ",
+    "Major flare on ": "强耀斑发生于 ",
+    ". Radiation storm likely near ": "。以下天体附近可能出现辐射风暴：",
+    " CME heading for ": "，日冕物质抛射正向以下天体传播：",
+    ", arriving in ": "，距预计到达还有 ",
+    " radiation storm near ": " 级辐射风暴发生在以下天体附近：",
+    "CME shock reached ": "日冕物质抛射激波已到达 ",
+    ".": "。"
+  },
+  "KSA.SpaceWeatherAlerts::AppendSolarWind": {
+    " km/s, ": " km/s，",
+    ", field ": "，磁场 ",
+    " nT north": " nT，向北",
+    " nT south": " nT，向南"
+  },
+  "KSA.SpaceWeatherWindow/Window::DrawStar": {
+    ", falling, minimum in ": "，正在下降，距活动极小期还有 ",
+    ", rising, maximum in ": "，正在上升，距活动极大期还有 ",
+    " a day": " 次／天",
+    "CME at ": "日冕物质抛射：",
+    " km/s, ": " km/s，",
+    " ago": "前"
+  },
+  "KSA.StellarBody::DrawCelestialWindowData": {
+    " per day": " 次／天"
+  },
+  "KSA.TransferPlanner::DrawLifeSupportShortfall": {
+    "NOT ENOUGH LIFE SUPPORT: ": "生命保障物资不足：",
+    " SHORT": "（缺口）"
+  },
+  "KSA.VehicleEditor::DrawGrainSection": {
+    "Segment '": "药柱段 '"
+  },
+  "KSA.VehicleEditor::DrawParachuteSection": {
+    "Chutes on '": "降落伞所在部件 '"
+  },
+  "KSA.VehicleEditor::DrawTankGroupControls": {
+    "None (": "无（",
+    " (": "（",
+    ")": "）"
+  },
+  "KSA.VehicleEditor/PartWindow::DrawPartTooltipCard": {
+    "< > or ": "< > 或 ",
+    " to change variant": " 切换部件变体"
+  }
+}

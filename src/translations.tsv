@@ -97,7 +97,7 @@ Texture Streaming|纹理流送
 Enabled|启用
 VRAM Budget|显存预算
 Tessellation|曲面细分
-Ground Clutter|地表杂物
+Ground Clutter|地表散布物
 Terrain Blending|地形混合
 Cast Shadows|投射阴影
 Ocean|海洋
@@ -274,8 +274,8 @@ SHOW PARENT/TARGET ALIGNMENT|显示主天体与目标的对齐关系
 MUST HAVE A VALID ORBIT|需要有效轨道
 CALCULATE|计算
 RE-CALCULATE|重新计算
-Circularize Apoapsis|在远拱点圆化轨道
-Circularize Periapsis|在近拱点圆化轨道
+Circularize Apoapsis|在远拱点将轨道圆化
+Circularize Periapsis|在近拱点将轨道圆化
 NO SOURCE VEHICLE|没有起始载具
 NO VALID APSIS ON THIS ORBIT|此轨道上没有有效拱点
 BEST TRANSFER|最佳转移

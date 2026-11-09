@@ -105,11 +105,16 @@ def main():
             shutil.copyfile(package / relative, path)
             assert sha(path.read_bytes()) == expected
             distribution['files'][relative] = destination
+    distribution['acceptedPreviousHashes'] = {
+        relative: hashes for relative, hashes in manifest['acceptedPreviousHashes'].items()
+        if relative in distribution['patchedHashes']
+    }
     (ROOT / 'manifest.json').write_text(json.dumps(distribution, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
     (ROOT / 'src').mkdir(exist_ok=True)
     for path in sorted((source / 'scripts').glob('translations*.tsv')):
         shutil.copyfile(path, ROOT / 'src' / path.name)
     shutil.copyfile(source / 'scripts/ChineseLocalization.cs', ROOT / 'src/ChineseLocalization.cs')
+    shutil.copyfile(source / 'scripts/ui-fragments.json', ROOT / 'src/ui-fragments.json')
     # 发布报告只保留验证结果，不携带游戏路径、游戏日志或原始资源目录。
     (ROOT / 'reports').mkdir(exist_ok=True)
     for name in ('运行检查.json', '部件覆盖报告.json', '描述覆盖报告.json'):

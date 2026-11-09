@@ -32,8 +32,17 @@
   "crossBuildHashesAccepted": false,
   "visualScope": "按既有要求仅进行后台验证，未打开游戏窗口，未验证游戏内画面。",
   "runtimeChecks": {
-    "zh-Hans": 2015,
-    "en-US": 2015
+    "en-US": 2080,
+    "zh-Hans": 2080
   },
-  "installedFilesMatchManifest": true
+  "installedFilesMatchManifest": true,
+  "localizationAudit": {
+    "dictionaryEntries": 4149,
+    "addedDictionaryEntries": 16,
+    "revisedDictionaryEntries": 38,
+    "uiFragments": 85,
+    "scopedMethods": 26,
+    "sameBuildUpgradeVerified": true,
+    "originalEnglishUnchanged": true
+  }
 }

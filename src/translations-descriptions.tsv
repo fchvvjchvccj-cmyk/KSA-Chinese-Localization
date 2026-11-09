@@ -4,7 +4,7 @@ Deep spokes give a large initial burning surface that collapses as they burn out
 Curved slots deliver a hard kick until their fins burn through, leaving a large low-thrust port.|弯曲槽道在薄片燃穿前提供强劲的初始推力，之后留下较大的通道，推力降低。
 Short slots burn out early, then the thick remaining propellant builds thrust back up.|短槽较早燃尽，随后剩余的厚层推进剂使推力再次上升。
 A dense propellant combination with modest performance; excellent for keeping the size of larger booster stages reasonable.|密度高、性能适中的推进剂组合，适合控制大型助推级的体积。
-The pinnacle of chemical propellant performance, but requires very large propellant tanks; excellent for upper stages.|性能最高的化学推进剂组合，但需要非常大的推进剂贮箱，适合上面级。
+The pinnacle of chemical propellant performance, but requires very large propellant tanks; excellent for upper stages.|性能最高的化学推进剂组合，但需要非常大的推进剂储箱，适合上面级。
 Balances good performance with reasonable density, but both propellants are cryogenic.|兼顾较好的性能与适中的密度，但两种推进剂均需低温储存。
 Low-performance but simple and cool-burning.|性能较低，但使用简单，燃烧温度也较低。
 Low-performance, but is the only storable, benign bipropellant mixure.|性能较低，但它是唯一可长期储存且危害较小的双组元推进剂组合。
@@ -20,9 +20,9 @@ A very poor-performance reaction mass, but extremely abundant.|性能很低的�
 Inert and dense reaction mass; simple but low-performance.|惰性且密度高的推进工质，使用简单，但性能较低。
 High-thrust storable solid propellant; the natural choice for large solid rocket motors.|可长期储存的高推力固体推进剂，适合大型固体火箭发动机。
 Lower-performance solid propellant than APCP, but easier to manufacture; burns consistently and cleanly.|性能低于高氯酸铵复合推进剂（APCP），但更容易制造，燃烧稳定且洁净。
-An inert monatomic gas; its light weight and total non-reactivity make it the standard tank pressurant.|惰性单原子气体，质量轻且几乎不参与反应，是标准的贮箱增压气体。
+An inert monatomic gas; its light weight and total non-reactivity make it the standard tank pressurant.|惰性单原子气体，质量轻且几乎不参与反应，是标准的储箱增压气体。
 The lightest fuel, giving the highest exhaust velocity, but its deep cryogenic storage and low density are costly.|最轻的燃料，可提供最高的排气速度，但深低温储存和低密度会带来较高成本。
-Hydrogen made of antiparticles. It annihilates with ordinary matter, turning all of its mass into energy, so a few tonnes drive a starship. Only a magnetic trap tank can hold it.|由反粒子组成的氢，与普通物质湮灭时将全部质量转化为能量，几吨即可驱动星际飞船。只能使用磁阱贮箱储存。
+Hydrogen made of antiparticles. It annihilates with ordinary matter, turning all of its mass into energy, so a few tonnes drive a starship. Only a magnetic trap tank can hold it.|由反粒子组成的氢，与普通物质湮灭时将全部质量转化为能量，几吨即可驱动星际飞船。只能使用磁阱储箱储存。
 A cheap, inert gas for pressurization and cold-gas thrusters where helium's low mass isn't worth the cost.|廉价的惰性气体，适用于增压和冷气推进器，可在氦的轻质量优势不足以抵消成本时使用。
 The standard oxidizer: high-performance and non-toxic, though it must be kept cryogenic.|标准氧化剂，性能高且无毒，但必须低温储存。
 Vital for life support, abundantly available, may be used as reaction mass in a pinch.|生命保障所必需，资源丰富，必要时也可用作推进工质。
@@ -64,7 +64,7 @@ Antihydrogen annihilating with hydrogen, heating reaction mass that is either ca
 Then click another part with a fuel port to run a line to it.|再点击另一个带燃料接口的部件，将管线连接过去。
 Click empty space to cancel.|点击空白处取消。
 You are currently in a game, are you sure you want to load '|当前正在游玩，确定要加载存档“
-Circularize|圆化轨道
+Circularize|将轨道圆化
 Right-click orbits to create more than one chained burn.|右键点击轨道可创建多个相互衔接的机动。
 Right-click orbits to create departure burns.|右键点击轨道可创建离轨机动。
 The oxidizer-to-fuel mass ratio fed to the combustion chamber.\nTypical value for this mixture:|送入燃烧室的氧化剂与燃料质量比。\n此推进剂组合的典型值：

@@ -110,7 +110,7 @@
     <comment>原文：Tank transfer blocked: use is disabled on the source tank</comment>
   </data>
   <data xml:space="preserve" name="AlertFuelTransferNoPower">
-    <value>储箱转移需要电力</value>
+    <value>在储箱之间转移资源需要电力</value>
     <comment>原文：Tank transfer requires electrical power</comment>
   </data>
   <data xml:space="preserve" name="AlertIvaCamera">
@@ -238,7 +238,7 @@
     <comment>原文：Add part</comment>
   </data>
   <data xml:space="preserve" name="EditorHistoryCopyTree">
-    <value>复制树</value>
+    <value>复制装配树</value>
     <comment>原文：Copy tree</comment>
   </data>
   <data xml:space="preserve" name="EditorHistoryDeletePart">
@@ -414,11 +414,11 @@
     <comment>原文：Riser Length</comment>
   </data>
   <data xml:space="preserve" name="EditorSettingRoleAffinity">
-    <value>用途偏好</value>
+    <value>供给对象</value>
     <comment>原文：Role Affinity</comment>
   </data>
   <data xml:space="preserve" name="EditorSettingRoleAffinityHeading">
-    <value>角色适应度：</value>
+    <value>供给对象：</value>
     <comment>原文：Role Affinity:</comment>
   </data>
   <data xml:space="preserve" name="EditorSettingSupplyUse">
@@ -634,11 +634,11 @@
     <comment>原文：General</comment>
   </data>
   <data xml:space="preserve" name="SettingsGraphicsGroundClutter">
-    <value>地表杂物</value>
+    <value>地表散布物</value>
     <comment>原文：Ground Clutter</comment>
   </data>
   <data xml:space="preserve" name="SettingsGraphicsGroundClutterRegion">
-    <value>地表杂物</value>
+    <value>地表散布物</value>
     <comment>原文：Ground Clutter</comment>
   </data>
   <data xml:space="preserve" name="SettingsGraphicsGroundClutterShadowCasting">
@@ -1082,7 +1082,7 @@
     <comment>原文：[Experimental] Enable Collisions</comment>
   </data>
   <data xml:space="preserve" name="SettingsSimulationGroundClutterRegion">
-    <value>地表杂物</value>
+    <value>地表散布物</value>
     <comment>原文：Ground Clutter</comment>
   </data>
   <data xml:space="preserve" name="SettingsSimulationMaxFlightComputerRate">

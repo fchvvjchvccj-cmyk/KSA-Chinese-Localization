@@ -1,4 +1,7 @@
-﻿param([Parameter(Mandatory=$true)][string]$OriginalDirectory)
+﻿param(
+    [Parameter(Mandatory=$true)][string]$OriginalDirectory,
+    [string]$PreviousPackageDirectory
+)
 $ErrorActionPreference = 'Stop'
 $root = Split-Path $PSScriptRoot -Parent
 $manifest = Get-Content -LiteralPath (Join-Path $root 'manifest.json') -Raw -Encoding UTF8 | ConvertFrom-Json
@@ -51,6 +54,27 @@ try {
     $save = Join-Path $fixture 'user-save-marker.dat'
     [IO.File]::WriteAllText($save, 'user save unchanged')
     $saveHash = Get-TestHash $save
+    $sameBuildUpgrade = $false
+    if ($PreviousPackageDirectory) {
+        # 使用上一版的真实安装器，复现已有备份和安装状态。
+        $previousRoot = (Resolve-Path -LiteralPath $PreviousPackageDirectory).Path
+        $previousManifest = Get-Content -LiteralPath (Join-Path $previousRoot 'manifest.json') -Raw -Encoding UTF8 | ConvertFrom-Json
+        if ($previousManifest.gameBuild -ne $manifest.gameBuild) { throw '升级测试使用了其他游戏版本' }
+        $previousMarker = Join-Path $previousRoot '.support-viewed'
+        $previousRemembered = Join-Path $previousRoot '.install-path.txt'
+        $previousMarkerBytes = if (Test-Path -LiteralPath $previousMarker) { ,([IO.File]::ReadAllBytes($previousMarker)) }
+        $previousRememberedBytes = if (Test-Path -LiteralPath $previousRemembered) { ,([IO.File]::ReadAllBytes($previousRemembered)) }
+        try {
+            [IO.File]::WriteAllText($previousMarker, (Get-TestHash (Join-Path $previousRoot '给我打赏一点吧，汉化不易.jpg')).ToUpperInvariant())
+            & (Join-Path $previousRoot 'scripts/install.ps1') -Action Install -GameDirectory $fixture
+        } finally {
+            if ($null -ne $previousMarkerBytes) { [IO.File]::WriteAllBytes($previousMarker, $previousMarkerBytes) }
+            elseif (Test-Path -LiteralPath $previousMarker) { Remove-Item -LiteralPath $previousMarker }
+            if ($null -ne $previousRememberedBytes) { [IO.File]::WriteAllBytes($previousRemembered, $previousRememberedBytes) }
+            elseif (Test-Path -LiteralPath $previousRemembered) { Remove-Item -LiteralPath $previousRemembered }
+        }
+        $sameBuildUpgrade = $true
+    }
     & $installer -Action Install -GameDirectory $fixture
     foreach ($property in $manifest.patchedHashes.PSObject.Properties) {
         if ((Get-TestHash (Join-Path $fixture $property.Name)) -ne $property.Value) { throw "安装结果不匹配：$($property.Name)" }
@@ -85,6 +109,7 @@ try {
         powershellVersion = $PSVersionTable.PSVersion.ToString()
         installationHashesMatch = $true
         repeatedInstall = $true
+        sameBuildUpgrade = $sameBuildUpgrade
         unknownFileProtectedWithoutChanges = $true
         wrongVersionRejectedWithoutChanges = $true
         corruptedDeltaRejectedWithoutChanges = $true

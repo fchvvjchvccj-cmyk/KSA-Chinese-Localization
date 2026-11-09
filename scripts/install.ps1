@@ -58,6 +58,11 @@ function Get-Hash([string]$path) {
     if (!(Test-Path -LiteralPath $path -PathType Leaf)) { return $null }
     return (Get-FileHash -LiteralPath $path -Algorithm SHA256).Hash.ToLowerInvariant()
 }
+function Test-KnownPreviousHash([string]$relative, [string]$hash) {
+    if (!$hash -or !$manifest.acceptedPreviousHashes) { return $false }
+    $property = $manifest.acceptedPreviousHashes.PSObject.Properties[$relative]
+    return $property -and $hash -in @($property.Value)
+}
 function Copy-Safe([string]$source, [string]$destination) {
     New-Item -ItemType Directory -Path (Split-Path $destination -Parent) -Force | Out-Null
     Copy-Item -LiteralPath $source -Destination $destination -Force
@@ -82,7 +87,7 @@ if ($Action -eq 'Install') {
 foreach ($property in $manifest.originalHashes.PSObject.Properties) {
     $relative = $property.Name
     $current = Get-Hash (Get-SafePath $game $relative)
-    if ($current -ne $property.Value -and $current -ne $expected[$relative]) {
+    if ($current -ne $property.Value -and $current -ne $expected[$relative] -and !(Test-KnownPreviousHash $relative $current)) {
         throw "版本或文件不匹配：$relative。本补丁仅支持 $($manifest.gameBuild) 的干净原版，旧补丁请先还原。"
     }
     $saved = Get-Hash (Get-SafePath $backup $relative)
