@@ -1,0 +1,306 @@
+Life support low|生命保障物资不足
+Tank transfer requires electrical power|储箱转移需要电力
+Tank transfer blocked: use is disabled on the source tank|无法转移：源储箱已禁用资源供给
+Cannot load {Vehicle}: it uses parts that no longer exist ({Parts})|无法加载 {Vehicle}：使用的部件已不存在（{Parts}）
+Cannot load {Vehicle}: its parts have changed since it was saved|无法加载 {Vehicle}：部件在保存后发生了变化
+Undo: {Action}|撤销：{Action}
+Redo: {Action}|重做：{Action}
+Add part|添加部件
+Place part|放置部件
+Transform part|移动或旋转部件
+Reset rotation|重置旋转
+Delete part|删除部件
+Switch focused tree|切换当前装配树
+Load vehicle|加载载具
+Add fuel line|添加燃料管线
+Remove fuel line|移除燃料管线
+Edit fuel line|编辑燃料管线
+Change flow rule|更改流动规则
+Change resource group|更改资源组
+Change staging|更改分级
+Change sequence|更改序列
+Change part settings|更改部件设置
+Part Variant|部件变体
+Refill|补充
+Role Affinity|用途偏好
+Supply Use|物资供给
+Volume - {Substance}|容积 - {Substance}
+Meals|餐食
+CO₂ Canisters|二氧化碳吸收罐
+HDR (Experimental)|HDR（实验性）
+HDR Format|HDR 格式
+HDR UI Brightness|HDR 界面亮度
+HDR Scene Paper White|HDR 场景参考白亮度
+HDR Peak Brightness|HDR 峰值亮度
+Aurora|极光
+Aurora quality|极光质量
+Every kitten aboard is incapacitated and there is no probe core.|舱内所有小猫航天员均已失去行动能力，且载具没有探测器核心。
+no system can be listed: every system failed to load, see the content errors|所有星系均加载失败，无法列出可选星系。请查看内容错误。
+Radiation|辐射
+Life Support|生命保障
+Panels|结构面板
+0 sieverts|0 希沃特
+microsieverts|微希沃特
+millisieverts|毫希沃特
+sieverts|希沃特
+per hour|每小时
+Acute|急性
+Acute dose|急性剂量
+Receiving|正在受照
+Healing|正在恢复
+Net|净变化
+Lethal in|距离致死还有
+Radiation sickness in|距离出现辐射病还有
+Lifetime|累积
+Lifetime dose|累积剂量
+Rising|持续上升
+Never heals|无法恢复
+Breathing External Air|正在呼吸外部空气
+Suit:|航天服：
+CO₂ cartridge|二氧化碳吸收罐
+Carrying|携带
+meals,|份餐食，
+meal,|份餐食，
+CO₂ canister|个二氧化碳吸收罐
+from external air|来自外部空气
+Too unwell to carry supplies|身体状况不佳，无法搬运物资
+Too far away to reach|距离太远，无法触及
+This suit has no room to carry supplies|航天服没有空间携带物资
+Nothing here to carry|这里没有可取的物资
+Supplies|物资
+No supply storage within reach.|附近没有可用的物资储藏处。
+Storage|储藏处
+Take|取出
+Stow|存放
+meals ·|份餐食 ·
+meal ·|份餐食 ·
+canisters|个吸收罐
+canister|个吸收罐
+Boarding throws away what won't fit:|登舱时将丢弃放不下的物资：
+meal|份餐食
+Too unwell to go on EVA|身体状况不佳，无法进行舱外活动
+No oxygen or CO₂ canisters to fill the suit|没有可用于补充航天服的氧气或二氧化碳吸收罐
+Presents in HDR on this screen. The scene always uses the GT7 tonemapper in HDR, the Tonemapper setting only applies to SDR.|在此屏幕上以 HDR 显示。HDR 始终使用 GT7 色调映射器；色调映射设置仅对 SDR 生效。
+How HDR frames are sent to the screen. Auto uses HDR10 where the screen offers it, otherwise scRGB. A format the screen doesn't offer falls back to the other. This screen offers scRGB and HDR10.|指定向屏幕发送 HDR 画面的方式。自动模式在支持 HDR10 时优先使用 HDR10，否则使用 scRGB。选择屏幕不支持的格式时会切换到另一种。本屏幕支持 scRGB 和 HDR10。
+How HDR frames are sent to the screen. Auto uses HDR10 where the screen offers it, otherwise scRGB. A format the screen doesn't offer falls back to the other. This screen offers scRGB only.|指定向屏幕发送 HDR 画面的方式。自动模式在支持 HDR10 时优先使用 HDR10，否则使用 scRGB。选择屏幕不支持的格式时会切换到另一种。本屏幕只支持 scRGB。
+How HDR frames are sent to the screen. Auto uses HDR10 where the screen offers it, otherwise scRGB. A format the screen doesn't offer falls back to the other. This screen offers HDR10 only.|指定向屏幕发送 HDR 画面的方式。自动模式在支持 HDR10 时优先使用 HDR10，否则使用 scRGB。选择屏幕不支持的格式时会切换到另一种。本屏幕只支持 HDR10。
+Brightness of white UI. Match it to the system's SDR content brightness so the game sits alongside other windows.|界面白色的亮度。建议与系统的 SDR 内容亮度一致，使游戏与其他窗口的亮度协调。
+Brightness of sunlit surfaces like clouds and terrain. Can sit above UI Brightness so the world stands out from the UI, highlights like the sun go brighter still.|云层、地形等阳光照射表面的参考白亮度。可设得高于界面亮度，让场景更突出；太阳等高光仍可更亮。
+Brightest the display can show. Highlights roll off towards this, so set it to the display's rated peak.|屏幕能显示的最高亮度。高光会逐渐压缩至此值，建议使用屏幕的额定峰值。
+Habitat Zones|居住区
+No vehicle.|当前没有载具。
+This vehicle has no habitable parts.|此载具没有可居住的部件。
+Highlight all zones|高亮所有区域
+Highlight lead|高亮负责人
+each|每份
+Habitable|可居住
+Stored|已储存
+Carried|随身携带
+seats, none assigned|个座位，无人分配
+Lasts|可维持
+Move|移动
+From|来源
+To|目的地
+· room for|· 剩余容量
+Move supplies|转移物资
+No kitten in this zone to move supplies|此区没有可转移物资的小猫航天员
+Every kitten in this zone is incapacitated|此区所有小猫航天员均已失去行动能力
+Nothing stored here to move|此处没有可转移的物资
+None to move|无物资可转移
+No storage: this crew has no food or CO₂ canisters|没有可用储藏处：本组没有餐食或二氧化碳吸收罐
+No meals stored in this zone|此区未储存餐食
+No CO₂ canisters stored in this zone|此区未储存二氧化碳吸收罐
+Healthy|健康
+Warning|警告
+Degraded|状态恶化
+Incapacitated|失去行动能力
+Dead|死亡
+CO₂ scrubber|二氧化碳吸收器
+food|食物
+Short of air|缺氧
+High CO₂|二氧化碳过高
+Thirsty|口渴
+Hungry|饥饿
+No oxygen|缺氧致死
+No CO₂ scrubber|缺少二氧化碳吸收器
+No water|缺水
+No food|缺少食物
+Ground impact|撞击地面
+Ocean impact|撞击海面
+Collision|碰撞
+Aerodynamic forces|气动力
+Hydrodynamic forces|流体动力
+Fall|坠落
+Abandoned|被遗弃
+Double-click an assigned vehicle to follow it. Click a column header to sort the roster. Recovery is how long a kitten needs resting at home for its acute dose to heal.|双击已分配的载具可跟随它。点击列标题可排序。恢复时间是指小猫航天员回到基地休息，直到急性剂量消退所需的时间。
+RETIRED|已退役
+Recovery|恢复时间
+Condition|健康状况
+Cause of Death|死因
+Radiation dose that heals over time, with a half-life of|会随时间消退的辐射剂量，半衰期为
+Every radiation dose a kitten has ever received. It never heals.|小猫航天员曾经受到的全部辐射剂量，不会消退。
+How long a kitten needs resting at home for its acute dose to heal away.|小猫航天员回到基地后，急性剂量完全消退所需的休息时间。
+A kitten with radiation sickness can fly again sooner, once its acute dose is below|患辐射病的小猫航天员可在急性剂量降到以下数值后提前复飞：
+How a kitten is suffering from a missing life support supply: degraded, then incapacitated, then dead.\nA degraded kitten refuses to EVA. An incapacitated kitten cannot move seats or fly.|缺乏生命保障物资会使小猫航天员的状况依次恶化、失去行动能力，最后死亡。\n状况恶化时将拒绝舱外活动；失去行动能力时无法换座或驾驶。
+VIEWING|当前视角
+SCOPE|显示范围
+OFFSET X|X 偏移
+OFFSET Y|Y 偏移
+OFFSET Z|Z 偏移
+OVERLAYS|叠加显示
+MAGNETOSPHERES|磁层
+Draw each magnetised body's radiation belts, field lines, magnetopause and bow shock.|显示各磁化天体的辐射带、磁力线、磁层顶和弓形激波。
+SPACE WEATHER|太空天气
+Draw each star's active regions, the magnetic field line from the star to what you are viewing, and CMEs in flight. A CME's front is drawn where its forecast puts it, between its earliest and latest arrival.|显示各恒星的活动区、从恒星到当前观测目标的磁力线，以及传播中的日冕物质抛射。抛射前沿按预计位置绘制，到达时间介于预报的最早与最晚时间之间。
+Release|解除
+CAMERA|相机
+Focus Vehicle|聚焦载具
+MAP CONTROL|地图控制
+VEHICLE CONTROL|载具控制
+Open Hatch|打开舱门
+Close Hatch|关闭舱门
+Habitable Volume:|可居住容积：
+Meals:|餐食：
+CO₂ Canisters:|二氧化碳吸收罐：
+Air|空气
+Habitat Zone:|居住区：
+Zone Lead:|区域负责人：
+This part|此部件
+Kittens In Zone:|区内小猫航天员：
+Air Left:|空气剩余：
+Breathing outside air|正在呼吸外部空气
+Water Left:|水剩余：
+Food Left:|食物剩余：
+Scrubbing Left:|二氧化碳净化余量：
+Pressure:|压力：
+Rated Pressure:|额定压力：
+Radiation Shield|辐射屏蔽
+Shield Mass|屏蔽层质量
+Tank Cover|储箱遮蔽
+Unshielded|无屏蔽
+Solar Wind|太阳风
+Distance to Star:|距恒星距离：
+Workload|计算负载
+Freefall Event|自由落体事件
+Collision Prediction|碰撞预测
+Collision Detection|碰撞检测
+Gimbal Control|推力矢量控制
+RCS Control|姿态控制推进器控制
+Short Physics|短时间尺度物理
+Long Physics|长时间尺度物理
+Rotation Rate|旋转速率
+Buoyancy Physics|浮力模拟
+Parachute Physics|降落伞模拟
+Contact Scan {0:F1}, Cluster {1:F1}, Integration {2:F1}|接触扫描 {0:F1}，聚类 {1:F1}，积分 {2:F1}
+From the slowest bubble:|最慢模拟区的数据：
+Substeps by limit:|按限制分类的子步数：
+Step Loop|步进循环
+Bubble solve time:|模拟区求解时间：
+All Phases|所有阶段
+By Phase|按阶段
+Within Phases|阶段内部
+Reading|正在读取
+Pre-Loading|正在预加载
+Streamed Textures|流式纹理
+Streaming|正在流式加载
+Draw Aero Mesh|绘制气动网格
+Show Undo History Debug|显示撤销历史调试
+Rules|规则
+Show Portrait Camera Controls|显示肖像相机控制
+Show Magnetosphere|显示磁层
+Show Space Weather|显示太空天气
+Show Habitat Lead Debug|显示居住区负责人调试
+Radiation dose rate here, unshielded, in millisieverts per hour.|当前位置无屏蔽时的辐射剂量率，单位为毫希沃特每小时。
+Radiation dose rate here, unshielded, in sieverts per hour.|当前位置无屏蔽时的辐射剂量率，单位为希沃特每小时。
+Radiation dose rate averaged over the current orbit, unshielded, in millisieverts per hour.|沿当前轨道平均的无屏蔽辐射剂量率，单位为毫希沃特每小时。
+Radiation dose rate averaged over the current orbit, unshielded, in sieverts per hour.|沿当前轨道平均的无屏蔽辐射剂量率，单位为希沃特每小时。
+Radiation dose rate averaged over the orbit after this burn, unshielded, in millisieverts per hour.|沿本次点火后轨道平均的无屏蔽辐射剂量率，单位为毫希沃特每小时。
+Radiation dose rate averaged over the orbit after this burn, unshielded, in sieverts per hour.|沿本次点火后轨道平均的无屏蔽辐射剂量率，单位为希沃特每小时。
+Sea-level pressure edit rejected:|海平面压力改动被拒绝：
+Mixture|混合物
+Sea-level temperature|海平面温度
+Add Emitter|添加发射器
+Add Volume|添加体积区域
+Compute Tessellation|计算曲面细分
+Terrain Pre-Pass|地形预处理
+Atm pressure (Pa)|大气压力 (Pa)
+Radius error fraction|半径误差比例
+Coarse refs|粗略引用
+Voxel refs|体素引用
+No empty seat in this zone|此区没有空座位
+CME launched from|日冕物质抛射源自
+Major flare on|强耀斑发生于
+, arriving in|，预计到达时间：
+CME shock reached|日冕物质抛射激波已到达
+nT north|nT，向北
+nT south|nT，向南
+Space weather at every body with vehicles in its sphere of influence, and at the star and body picked above. A flare's light is the first sign of it. CME arrival forecasts start about half a day out either way and close in as the CME flies. Nothing tells which way a CME's field points until it arrives.|查看影响范围内有载具的各天体，以及上方所选恒星和天体的太空天气。耀斑的光是最早的征兆。日冕物质抛射最初的预计到达时间前后各有约半天误差，传播期间预报会逐渐收窄。抛射磁场的方向要到抵达时才能确定。
+Bodies with vehicles|有载具的天体
+No vehicles in flight.|没有飞行中的载具。
+No eruptions.|没有爆发事件。
+Activity:|活动度：
+Wind at 1 AU:|1 AU 处的恒星风：
+CMEs:|日冕物质抛射：
+Active regions:|活动区：
+No fast CMEs in the last 3 days.|最近 3 天没有快速日冕物质抛射。
+Solar wind:|太阳风：
+Geomagnetic storm:|地磁暴：
+Radiation storm:|辐射风暴：
+CME from|日冕物质抛射来自
+No CMEs on the way.|没有正在传播的日冕物质抛射。
+HELIOSPHERE|日球层
+HELIOPAUSE|日球层顶
+WIND PRESSURE AT 1 AU|1 AU 处的恒星风压
+QUIET DOSE AT 1 AU|1 AU 处的静稳期辐射剂量
+ROTATION PERIOD|自转周期
+POLE TILT|磁极倾角
+ACTIVITY CYCLE|活动周期
+CYCLE PHASE|周期阶段
+Falling|下降中
+TIME TO MINIMUM|距活动极小期
+TIME TO MAXIMUM|距活动极大期
+ACTIVITY|活动度
+COSMIC RAYS|宇宙射线
+CME RATE|日冕物质抛射频率
+When off, the crew cannot draw supplies from this tank.|关闭后，乘员无法从此储箱取用物资。
+Min Curvature (1/km)|最小曲率 (1/km)
+Max Curvature (1/km)|最大曲率 (1/km)
+Curvature Texel Spacing|曲率纹素间距
+X = Terrain Mean Curvature (1/km, negative is concave), Y = Density|X = 地形平均曲率（1/km，负值表示凹陷），Y = 密度
+Curvature Density Curve|曲率密度曲线
+Edge Softness|边缘柔和度
+Noise Strength|噪声强度
+X = Latitude (deg), Y = Reference Altitude (m)|X = 纬度（度），Y = 参考海拔（米）
+Latitude Curve|纬度曲线
+X = Longitude (deg), Y = Weight|X = 经度（度），Y = 权重
+Longitude Curve|经度曲线
+X = Altitude Above Reference (m), Y = Coverage|X = 高于参考海拔的高度（米），Y = 覆盖率
+Relative Altitude Curve|相对海拔曲线
+Radiation sickness\nFit to fly in|辐射病\n距离可复飞还有
+Habitat Storage|居住区储藏
+Which consumer kinds this tank automatically provides for.|指定此储箱自动向哪些类型的用量端供给资源。
+UNDO|撤销
+REDO|重做
+Variant|变体
+Tank #|储箱 #
+Undo History Debug|撤销历史调试
+Sub-parts|子部件
+History steps|历史步骤
+History memory (est.)|历史记录内存（估算）
+Parts reused (last restore)|上次还原时复用的部件
+Reuse unchanged parts|复用未更改的部件
+Meals stowed in this habitat. Each kitten eats|本居住区储存的餐食。每只小猫航天员每天食用
+a day, and each meal weighs|份，每份重
+CO₂ scrubber canisters stowed in this habitat. Each one scrubs|本居住区储存的二氧化碳吸收罐。每罐的净化能力为
+kitten-days and weighs|小猫·天，重量为
+to change variant|切换变体
+Aero mesh: building|正在构建气动网格
+Aero mesh:|气动网格：
+Aero mesh dump: no vehicle is being edited or controlled|气动网格导出：没有正在编辑或控制的载具
+Aero mesh dump: no mesh has been built for this vehicle|气动网格导出：此载具尚未生成网格
+Shelf-stable meals in their packaging. A kitten eats 2.39 kg a day.|原包装的常温耐储餐食。每只小猫航天员每天消耗 2.39 kg。
+Granules in disposable canisters that soak up the CO₂ a crew breathes out. A kitten uses 1.27 kg a day.|一次性罐中的颗粒可吸收乘员呼出的二氧化碳。每只小猫航天员每天消耗 1.27 kg。
+The antiparticle twin of hydrogen which annihilates with ordinary matter.|氢的反物质，与普通物质接触时会发生湮灭。
+A choking volcanic gas most frequently used to create sulfuric acid.|一种具有窒息性的火山气体，常用于制取硫酸。
+SL-M1 Supply Locker|SL-M1 物资储物柜
+SL-M2 Supply Locker|SL-M2 物资储物柜

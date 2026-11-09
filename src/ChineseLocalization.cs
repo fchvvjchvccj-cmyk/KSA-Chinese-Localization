@@ -40,7 +40,11 @@ namespace KsaChinese
                     partTranslations.Contains(pair.Value);
                 // 海平面和真空读数含括号，不能仅按连续英文字母拆分。
                 bool readoutLabel = pair.Key.EndsWith(" (SL)", StringComparison.Ordinal) ||
-                    pair.Key.EndsWith(" (Vac)", StringComparison.Ordinal);
+                    pair.Key.EndsWith(" (Vac)", StringComparison.Ordinal) ||
+                    pair.Key.StartsWith("CO₂ ", StringComparison.OrdinalIgnoreCase) ||
+                    pair.Key is "Habitable Volume:" or "Meals:" or "Habitat Zone:" or "Zone Lead:" or
+                        "Kittens In Zone:" or "Air Left:" or "Water Left:" or "Food Left:" or "Scrubbing Left:" or
+                        "Pressure:" or "Rated Pressure:" or "Distance to Star:";
                 // 长描述可能与名称、读数或其他句子拼接；不收录含格式标记的文本。
                 if ((!partName && !readoutLabel && pair.Key.Length < 30) || !Char.IsLetter(pair.Key[0]) ||
                     pair.Key.IndexOfAny(new[] { '{', '<', '%', '#' }) >= 0) continue;

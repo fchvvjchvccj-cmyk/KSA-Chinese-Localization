@@ -34,6 +34,8 @@ try {
     if (Test-Path -LiteralPath (Join-Path $fixture '.install-path.txt')) { throw '检查模式不应记录游戏安装路径' }
     [pscustomobject]@{
         result = 'passed'; checks = 5; powershellVersion = $PSVersionTable.PSVersion.ToString()
+        gameBuild = $manifest.gameBuild
+        manifestSha256 = (Get-FileHash -LiteralPath (Join-Path $root 'manifest.json')).Hash.ToLowerInvariant()
         intactPackageAccepted = $true; missingDllReported = $true; mismatchedDllHashesReported = $true
         corruptedDeltaRejected = $true; gameDirectoryNotRequired = $true; gameStarted = $false
     } | ConvertTo-Json | Set-Content -LiteralPath (Join-Path $root 'reports/package-tests.json') -Encoding UTF8

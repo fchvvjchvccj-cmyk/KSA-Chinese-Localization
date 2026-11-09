@@ -1,27 +1,39 @@
 {
-  "gameBuild": "2026.10.13.5602",
-  "previousGameBuild": "2026.10.7.5541",
-  "assemblyVersion": "2026.10.13.5602",
+  "gameBuild": "2026.11.10.5801",
+  "previousGameBuild": "2026.10.13.5602",
+  "assemblyVersion": "2026.11.10.5801",
   "targetFrameworks": [
     ".NETCoreApp,Version=v10.0"
   ],
-  "managedArtifactEvidenceId": "ev_a60c72148fdd1b53cc3df5367bcfc32f03c8c730a8313bb3fa026053626fef8f",
+  "managedArtifactEvidenceId": "ev_257a337a38064c346935e513444dd4fd60b5edd2fc5cea1b85ae9081bb06bd27",
   "managedMetadataCoverage": {
     "issues": [],
     "state": "complete"
   },
-  "newDictionaryEntries": 104,
+  "newDictionaryEntries": 463,
   "previousTranslationsPreserved": true,
-  "newNativeEntries": 7,
-  "newPart": "CoreStructuralA_Prefab_StrutD",
-  "newPartTranslation": "支撑杆 D",
-  "newUtf8UiCandidatesMissingTranslations": [],
+  "newNativeEntries": 64,
+  "nativeEntries": 277,
+  "utf8NewCandidatesClassified": true,
+  "untranslatedInternalUtf8Candidates": [
+    "SupplyTransfer",
+    "kittens_retired",
+    "SeatPicker",
+    "USES_CUSTOM_NORMALS",
+    "PRE_PASS_NORMALS",
+    "PLANET_HEIGHT_BAKER",
+    "_ViewportCellSlots",
+    "CMAA2_HDR_COLOR",
+    "PREPARE_PATCH_DISPATCH",
+    "SETUP_PATCHES",
+    "PREPARE_VERTEX_DISPATCH",
+    "TESSELLATE"
+  ],
   "crossBuildHashesAccepted": false,
-  "visualScope": "仅观察启动配置窗口，尚未验证新版游戏内画面。",
-  "reproducibleBuildVerified": true,
+  "visualScope": "按既有要求仅进行后台验证，未打开游戏窗口，未验证游戏内画面。",
   "runtimeChecks": {
-    "zh-Hans": 1270,
-    "en-US": 1270
+    "zh-Hans": 2015,
+    "en-US": 2015
   },
   "installedFilesMatchManifest": true
 }

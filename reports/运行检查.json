@@ -1,8 +1,8 @@
 {
   "modes": {
-    "en-US": 1270,
-    "zh-Hans": 1270
+    "zh-Hans": 2015,
+    "en-US": 2015
   },
-  "dictionarySha256": "a845cafb6d8fcc9ee16c158f7807755e27513433774a63775f958fa1f9624f96",
+  "dictionarySha256": "d3b8acc532dd543a5b90a91cad6c1376b718b7f73b321c57dc886f14fc99188a",
   "result": "passed"
 }

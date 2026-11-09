@@ -118,7 +118,6 @@ def main():
     adaptation = json.loads((source / '汉化补丁/版本适配报告.json').read_text(encoding='utf-8'))
     for key in ('installerLog', 'previousVersionBackup'):
         adaptation.pop(key, None)
-    adaptation['visualScope'] = '仅观察启动配置窗口，尚未验证新版游戏内画面。'
     (ROOT / 'reports/version-adaptation.json').write_text(
         json.dumps(adaptation, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
     visual = json.loads((source / '汉化补丁/画面检查.json').read_text(encoding='utf-8'))

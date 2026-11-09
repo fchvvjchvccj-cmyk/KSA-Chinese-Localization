@@ -106,16 +106,20 @@
     <comment>原文：That part already has a fuel port: click the port instead</comment>
   </data>
   <data xml:space="preserve" name="AlertFuelTransferDonorDisabled">
-    <value>燃料输送受阻：源储箱已禁用推进剂</value>
-    <comment>原文：Fuel transfer blocked: propellant use is disabled on the source tank</comment>
+    <value>无法转移：源储箱已禁用资源供给</value>
+    <comment>原文：Tank transfer blocked: use is disabled on the source tank</comment>
   </data>
   <data xml:space="preserve" name="AlertFuelTransferNoPower">
-    <value>燃料输送需要电力</value>
-    <comment>原文：Fuel transfer requires electrical power</comment>
+    <value>储箱转移需要电力</value>
+    <comment>原文：Tank transfer requires electrical power</comment>
   </data>
   <data xml:space="preserve" name="AlertIvaCamera">
     <value>舱内视角</value>
     <comment>原文：IVA camera</comment>
+  </data>
+  <data xml:space="preserve" name="AlertLifeSupportLow">
+    <value>生命保障物资不足</value>
+    <comment>原文：Life support low</comment>
   </data>
   <data xml:space="preserve" name="AlertNearLimitAerodynamic">
     <value>载具即将达到最大气动载荷！</value>
@@ -189,6 +193,14 @@
     <value>无法在此创建转移机动：请留出足够时间离开引力影响范围。</value>
     <comment>原文：Cannot create a transfer burn here: allow enough time to exit the sphere of influence.</comment>
   </data>
+  <data xml:space="preserve" name="AlertVehicleChangedParts">
+    <value>无法加载 {Vehicle}：部件在保存后发生了变化</value>
+    <comment>原文：Cannot load {Vehicle}: its parts have changed since it was saved</comment>
+  </data>
+  <data xml:space="preserve" name="AlertVehicleMissingParts">
+    <value>无法加载 {Vehicle}：使用的部件已不存在（{Parts}）</value>
+    <comment>原文：Cannot load {Vehicle}: it uses parts that no longer exist ({Parts})</comment>
+  </data>
   <data xml:space="preserve" name="AlertVehicleRecovered">
     <value>载具已回收</value>
     <comment>原文：Vehicle recovered</comment>
@@ -217,6 +229,218 @@
     <value>载具猛烈撞击海面，已损毁！</value>
     <comment>原文：Vehicle destroyed by hard impact with the ocean!</comment>
   </data>
+  <data xml:space="preserve" name="EditorHistoryAddFuelLine">
+    <value>添加燃料管线</value>
+    <comment>原文：Add fuel line</comment>
+  </data>
+  <data xml:space="preserve" name="EditorHistoryAddPart">
+    <value>添加部件</value>
+    <comment>原文：Add part</comment>
+  </data>
+  <data xml:space="preserve" name="EditorHistoryCopyTree">
+    <value>复制树</value>
+    <comment>原文：Copy tree</comment>
+  </data>
+  <data xml:space="preserve" name="EditorHistoryDeletePart">
+    <value>删除部件</value>
+    <comment>原文：Delete part</comment>
+  </data>
+  <data xml:space="preserve" name="EditorHistoryEdit">
+    <value>编辑</value>
+    <comment>原文：Edit</comment>
+  </data>
+  <data xml:space="preserve" name="EditorHistoryEditFuelLine">
+    <value>编辑燃料管线</value>
+    <comment>原文：Edit fuel line</comment>
+  </data>
+  <data xml:space="preserve" name="EditorHistoryFlowRule">
+    <value>更改流动规则</value>
+    <comment>原文：Change flow rule</comment>
+  </data>
+  <data xml:space="preserve" name="EditorHistoryFocusTree">
+    <value>切换当前装配树</value>
+    <comment>原文：Switch focused tree</comment>
+  </data>
+  <data xml:space="preserve" name="EditorHistoryLoadVehicle">
+    <value>加载载具</value>
+    <comment>原文：Load vehicle</comment>
+  </data>
+  <data xml:space="preserve" name="EditorHistoryPartSettings">
+    <value>更改部件设置</value>
+    <comment>原文：Change part settings</comment>
+  </data>
+  <data xml:space="preserve" name="EditorHistoryPlacePart">
+    <value>放置部件</value>
+    <comment>原文：Place part</comment>
+  </data>
+  <data xml:space="preserve" name="EditorHistoryRemoveFuelLine">
+    <value>移除燃料管线</value>
+    <comment>原文：Remove fuel line</comment>
+  </data>
+  <data xml:space="preserve" name="EditorHistoryReroot">
+    <value>重新设定根部件</value>
+    <comment>原文：Reroot</comment>
+  </data>
+  <data xml:space="preserve" name="EditorHistoryResetRotation">
+    <value>重置旋转</value>
+    <comment>原文：Reset rotation</comment>
+  </data>
+  <data xml:space="preserve" name="EditorHistoryResourceGroup">
+    <value>更改资源组</value>
+    <comment>原文：Change resource group</comment>
+  </data>
+  <data xml:space="preserve" name="EditorHistorySequence">
+    <value>更改序列</value>
+    <comment>原文：Change sequence</comment>
+  </data>
+  <data xml:space="preserve" name="EditorHistoryStaging">
+    <value>更改分级</value>
+    <comment>原文：Change staging</comment>
+  </data>
+  <data xml:space="preserve" name="EditorHistorySwapVariant">
+    <value>部件变体</value>
+    <comment>原文：Part Variant</comment>
+  </data>
+  <data xml:space="preserve" name="EditorHistoryTransformPart">
+    <value>移动或旋转部件</value>
+    <comment>原文：Transform part</comment>
+  </data>
+  <data xml:space="preserve" name="EditorRedoAlert">
+    <value>重做：{Action}</value>
+    <comment>原文：Redo: {Action}</comment>
+  </data>
+  <data xml:space="preserve" name="EditorRefillConsumables">
+    <value>补满消耗资源</value>
+    <comment>原文：REFILL CONSUMABLES</comment>
+  </data>
+  <data xml:space="preserve" name="EditorSettingActuate">
+    <value>驱动</value>
+    <comment>原文：Actuate</comment>
+  </data>
+  <data xml:space="preserve" name="EditorSettingAreaRatioMultiplier">
+    <value>面积比倍率</value>
+    <comment>原文：Area Ratio Multiplier</comment>
+  </data>
+  <data xml:space="preserve" name="EditorSettingAuto">
+    <value>自动</value>
+    <comment>原文：Auto</comment>
+  </data>
+  <data xml:space="preserve" name="EditorSettingCanisters">
+    <value>二氧化碳吸收罐</value>
+    <comment>原文：CO₂ Canisters</comment>
+  </data>
+  <data xml:space="preserve" name="EditorSettingCanopies">
+    <value>伞面</value>
+    <comment>原文：Canopies</comment>
+  </data>
+  <data xml:space="preserve" name="EditorSettingCanopyColor">
+    <value>伞面颜色</value>
+    <comment>原文：Canopy Color</comment>
+  </data>
+  <data xml:space="preserve" name="EditorSettingCharge">
+    <value>充电</value>
+    <comment>原文：Charge</comment>
+  </data>
+  <data xml:space="preserve" name="EditorSettingContents">
+    <value>内容</value>
+    <comment>原文：Contents</comment>
+  </data>
+  <data xml:space="preserve" name="EditorSettingCreateNewVehicle">
+    <value>新建载具</value>
+    <comment>原文：Create New Vehicle</comment>
+  </data>
+  <data xml:space="preserve" name="EditorSettingCutInSequence">
+    <value>在级序列中切伞</value>
+    <comment>原文：Cut In Sequence</comment>
+  </data>
+  <data xml:space="preserve" name="EditorSettingDecouplerEnabled">
+    <value>启用分离器</value>
+    <comment>原文：Decoupler Enabled</comment>
+  </data>
+  <data xml:space="preserve" name="EditorSettingDeploy">
+    <value>展开</value>
+    <comment>原文：Deploy</comment>
+  </data>
+  <data xml:space="preserve" name="EditorSettingDeployAltitude">
+    <value>展开高度</value>
+    <comment>原文：Deploy Altitude</comment>
+  </data>
+  <data xml:space="preserve" name="EditorSettingDiameter">
+    <value>直径</value>
+    <comment>原文：Diameter</comment>
+  </data>
+  <data xml:space="preserve" name="EditorSettingGLimit">
+    <value>过载限制</value>
+    <comment>原文：G-Limit</comment>
+  </data>
+  <data xml:space="preserve" name="EditorSettingLightSwitch">
+    <value>灯光开关</value>
+    <comment>原文：Light Switch</comment>
+  </data>
+  <data xml:space="preserve" name="EditorSettingMeals">
+    <value>餐食</value>
+    <comment>原文：Meals</comment>
+  </data>
+  <data xml:space="preserve" name="EditorSettingNozzleAreaRatio">
+    <value>喷管面积比</value>
+    <comment>原文：Nozzle Area Ratio</comment>
+  </data>
+  <data xml:space="preserve" name="EditorSettingPropellantUse">
+    <value>推进剂使用</value>
+    <comment>原文：Propellant Use</comment>
+  </data>
+  <data xml:space="preserve" name="EditorSettingReaction">
+    <value>反应</value>
+    <comment>原文：Reaction</comment>
+  </data>
+  <data xml:space="preserve" name="EditorSettingReefDuration">
+    <value>收束持续时间</value>
+    <comment>原文：Reef Duration</comment>
+  </data>
+  <data xml:space="preserve" name="EditorSettingReefRatio">
+    <value>收束比例</value>
+    <comment>原文：Reef Ratio</comment>
+  </data>
+  <data xml:space="preserve" name="EditorSettingRefill">
+    <value>补充</value>
+    <comment>原文：Refill</comment>
+  </data>
+  <data xml:space="preserve" name="EditorSettingRetract">
+    <value>收回</value>
+    <comment>原文：Retract</comment>
+  </data>
+  <data xml:space="preserve" name="EditorSettingRiserLength">
+    <value>吊带长度</value>
+    <comment>原文：Riser Length</comment>
+  </data>
+  <data xml:space="preserve" name="EditorSettingRoleAffinity">
+    <value>用途偏好</value>
+    <comment>原文：Role Affinity</comment>
+  </data>
+  <data xml:space="preserve" name="EditorSettingRoleAffinityHeading">
+    <value>角色适应度：</value>
+    <comment>原文：Role Affinity:</comment>
+  </data>
+  <data xml:space="preserve" name="EditorSettingSupplyUse">
+    <value>物资供给</value>
+    <comment>原文：Supply Use</comment>
+  </data>
+  <data xml:space="preserve" name="EditorSettingThrustProfile">
+    <value>推力变化曲线</value>
+    <comment>原文：Thrust Profile</comment>
+  </data>
+  <data xml:space="preserve" name="EditorSettingVolume">
+    <value>体积</value>
+    <comment>原文：Volume</comment>
+  </data>
+  <data xml:space="preserve" name="EditorSettingVolumeOf">
+    <value>容积 - {Substance}</value>
+    <comment>原文：Volume - {Substance}</comment>
+  </data>
+  <data xml:space="preserve" name="EditorUndoAlert">
+    <value>撤销：{Action}</value>
+    <comment>原文：Undo: {Action}</comment>
+  </data>
   <data xml:space="preserve" name="FlightComputerTooltipBurnEmpty">
     <value>点火持续时间为空。</value>
     <comment>原文：Burn duration is empty.</comment>
@@ -224,6 +448,10 @@
   <data xml:space="preserve" name="FlightComputerTooltipBurnNotTransferred">
     <value>请先将出发机动转入飞行计划。</value>
     <comment>原文：Transfer the departure burn to your flight plan first.</comment>
+  </data>
+  <data xml:space="preserve" name="FlightComputerTooltipCrewIncapacitated">
+    <value>舱内所有小猫航天员均已失去行动能力，且载具没有探测器核心。</value>
+    <comment>原文：Every kitten aboard is incapacitated and there is no probe core.</comment>
   </data>
   <data xml:space="preserve" name="FlightComputerTooltipNoBurn">
     <value>当前没有点火机动。</value>
@@ -304,6 +532,26 @@
   <data xml:space="preserve" name="SettingsDisplayFrameQueueLimit">
     <value>预渲染帧数</value>
     <comment>原文：Frames Queued Ahead</comment>
+  </data>
+  <data xml:space="preserve" name="SettingsDisplayHdr">
+    <value>HDR（实验性）</value>
+    <comment>原文：HDR (Experimental)</comment>
+  </data>
+  <data xml:space="preserve" name="SettingsDisplayHdrFormat">
+    <value>HDR 格式</value>
+    <comment>原文：HDR Format</comment>
+  </data>
+  <data xml:space="preserve" name="SettingsDisplayHdrPeakBrightness">
+    <value>HDR 峰值亮度</value>
+    <comment>原文：HDR Peak Brightness</comment>
+  </data>
+  <data xml:space="preserve" name="SettingsDisplayHdrScenePaperWhite">
+    <value>HDR 场景参考白亮度</value>
+    <comment>原文：HDR Scene Paper White</comment>
+  </data>
+  <data xml:space="preserve" name="SettingsDisplayHdrUiBrightness">
+    <value>HDR 界面亮度</value>
+    <comment>原文：HDR UI Brightness</comment>
   </data>
   <data xml:space="preserve" name="SettingsDisplayMaxFrameRate">
     <value>最高帧率</value>
@@ -632,6 +880,14 @@
   <data xml:space="preserve" name="SettingsGraphicsVolumetricsAtmosphere">
     <value>大气</value>
     <comment>原文：Atmosphere</comment>
+  </data>
+  <data xml:space="preserve" name="SettingsGraphicsVolumetricsAurora">
+    <value>极光</value>
+    <comment>原文：Aurora</comment>
+  </data>
+  <data xml:space="preserve" name="SettingsGraphicsVolumetricsAuroraQuality">
+    <value>极光质量</value>
+    <comment>原文：Aurora quality</comment>
   </data>
   <data xml:space="preserve" name="SettingsGraphicsVolumetricsCloudQuality">
     <value>云层与尾迹上采样</value>
