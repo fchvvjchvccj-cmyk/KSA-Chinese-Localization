@@ -93,6 +93,7 @@ powershell.exe -NoProfile -ExecutionPolicy Bypass -File .\scripts\install.ps1 -A
 - `patches/`：只能结合对应原始文件使用的差分补丁。
 - `scripts/install.ps1`：无需 Python 或额外开发工具的安装/还原脚本。
 - `tools/build-distribution.py`：维护者从本地已验证的汉化工作区重新生成发布文件的工具，需要 Python；普通玩家不需要运行。
+- `icon-512.png`：汉化图标（512×512 PNG，约 132 KB，透明圆角），由工作区的 `scripts/make-icon.py` 生成（需要 Python 和 Pillow）。图标为原创图形，未使用游戏官方标志。
 
 本项目为非官方汉化，游戏名称及游戏资源归原权利人所有。请自行取得游戏。
 
