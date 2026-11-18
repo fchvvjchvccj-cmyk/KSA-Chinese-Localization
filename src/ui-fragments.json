@@ -8,24 +8,6 @@
   "KSA.GroundTrackWindow::DrawIgnitionPoint": {
     "Ignition T-": "距点火 T-"
   },
-  "KSA.HabitatZonesWindow/Window::DrawContent": {
-    " each": "／人",
-    " meals": " 份餐食",
-    " meal": " 份餐食",
-    " CO₂ canisters": " 个二氧化碳吸收罐",
-    " kittens": " 名小猫航天员",
-    " kitten": " 名小猫航天员",
-    " seats, none assigned": " 个座位，未分配乘员"
-  },
-  "KSA.HabitatZonesWindow/Window::DrawStorage": {
-    " meals · ": " 份餐食 · ",
-    " canisters": " 个二氧化碳吸收罐"
-  },
-  "KSA.HabitatZonesWindow/Window::DrawTransfer": {
-    " · room for ": " · 还可容纳 ",
-    " meals, ": " 份餐食，",
-    " canisters": " 个二氧化碳吸收罐"
-  },
   "KSA.KittenConditionUi::Format": {
     ": no ": "：缺少"
   },
@@ -34,15 +16,9 @@
     " again, recovered in ": "，预计恢复还需 ",
     "No ": "缺少",
     " for ": "已有 ",
-    ", degraded in ": "；距离状况恶化还有 ",
     ", incapacitated in ": "；距离失去行动能力还有 ",
-    ", dies in ": "；距离死亡还有 "
-  },
-  "KSA.KittenEva::DrawLadderPrompt": {
-    "] Let go": "] 松手",
-    "] Grab": "] 抓住扶手",
-    "] Board": "] 登舱",
-    "] Supplies": "] 物资"
+    ", dies in ": "；距离死亡还有 ",
+    ", impaired in ": "；距离机能受损还有 "
   },
   "KSA.KittenRosterWindow/Window::.cctor": {
     "Radiation dose that heals over time, with a half-life of ": "急性剂量会随时间消退。半衰期：飞行中为 ",
@@ -66,10 +42,7 @@
   "KSA.GameSaves/GameSavesWindow::DrawConsoleFooter": {
     " SAVE": " 份存档"
   },
-  "KSA.LifeSupportForecast::AppendZone": {
-    " · zone ": " · 居住区 "
-  },
-  "KSA.LifeSupportForecast::AppendSpan": {
+  "KSA.LifeSupportForecast::AppendSpan#Core.SpanBuilder&,System.Double": {
     " min": " 分钟",
     " h": " 小时",
     " d": " 天",
@@ -80,10 +53,10 @@
   },
   "KSA.Part::DrawPartInfo": {
     "Tank '": "储箱 '",
-    "Habitat '": "居住区 '",
-    "Grain Segment '": "药柱段 '",
+    "Grain Segment '": "药柱分段 '",
     "Engine Core '": "发动机核心 '",
-    "Nozzle '": "喷管 '"
+    "Nozzle '": "喷管 '",
+    "Habitat": "居住舱"
   },
   "KSA.RadiationShield::DrawPartInfo": {
     " g/cm²": " g/cm^2",
@@ -91,12 +64,6 @@
   },
   "KSA.SeatPicker::AppendSeatName": {
     " · Seat ": " · 座位 "
-  },
-  "KSA.SequenceList::DrawSequenceContent": {
-    " seats, none assigned": " 个座位，未分配乘员",
-    " seat, none assigned": " 个座位，未分配乘员",
-    " kittens assigned": " 名已分配的小猫航天员",
-    " kitten assigned": " 名已分配的小猫航天员"
   },
   "KSA.SpaceWeatherAlerts::RaiseAlerts": {
     "CME launched from ": "日冕物质抛射源自 ",
@@ -143,5 +110,218 @@
   "KSA.VehicleEditor/PartWindow::DrawPartTooltipCard": {
     "< > or ": "< > 或 ",
     " to change variant": " 切换部件变体"
+  },
+  "KSA.Avionics::DrawStateInfo": {
+    " of ": "／"
+  },
+  "KSA.CrewClock::DrawBackButton": {
+    "Back to ": "返回 "
+  },
+  "KSA.CrewCountdown::AppendEvent": {
+    " gets radiation sickness in ": " 将在以下时间后患辐射病："
+  },
+  "KSA.CrewCountdown::GetVerb": {
+    " dies in ": " 将在以下时间后死亡：",
+    " impaired in ": " 将在以下时间后机能受损：",
+    " incapacitated in ": " 将在以下时间后失去行动能力：",
+    " low in ": " 将在以下时间后物资不足："
+  },
+  "KSA.CrewPlan::AppendLegName": {
+    "Mission": "任务",
+    "Out": "去程",
+    "Stay": "停留",
+    "Back": "返程"
+  },
+  "KSA.CrewPlan::DrawLegMoves": {
+    " kitten moves ": " 名小猫航天员转移：",
+    " kittens move ": " 名小猫航天员转移：",
+    " by EVA": "（经舱外活动）",
+    " through the hatch": "（经舱门）",
+    " through the hatches": "（经多个舱门）"
+  },
+  "KSA.CrewPlan::DrawOverfull": {
+    " kittens planned, ": " 名小猫航天员列入计划，载具上有 ",
+    " aboard": " 名"
+  },
+  "KSA.CrewPortraitPanel::AppendSuitGas": {
+    " in reserve": " 储备"
+  },
+  "KSA.EvaSuit::AppendLost": {
+    " of air": " 空气",
+    " of CO₂ scrubber": " 二氧化碳吸收剂",
+    " water": " 水",
+    " meal": " 份餐食",
+    " meals": " 份餐食",
+    " CO₂ canister": " 个二氧化碳吸收罐",
+    " CO₂ canisters": " 个二氧化碳吸收罐"
+  },
+  "KSA.KittenEva::DrawLadderPrompt": {
+    "Let go": "松手",
+    "Grab": "抓住扶手",
+    "Board": "登舱",
+    "Supplies": "物资"
+  },
+  "KSA.KittenEva::UpdateIncapacitated": {
+    " is incapacitated and can't move.": " 已失去行动能力，无法移动。"
+  },
+  "KSA.LifeSupport::DrawStateInfo": {
+    "Out · ": "耗尽 · "
+  },
+  "KSA.LifeSupportAlert::Draw": {
+    "'s suit": " 的航天服"
+  },
+  "KSA.LifeSupportForecast::AppendZone": {
+    " · Zone ": " · 居住区 "
+  },
+  "KSA.LifeSupportWindow/Window::AppendCrew": {
+    "Assuming ": "按 ",
+    " kitten (every seat)": " 名小猫航天员估算（满座）",
+    " kittens (every seat)": " 名小猫航天员估算（满座）",
+    " kitten": " 名小猫航天员",
+    " kittens": " 名小猫航天员",
+    " assigned": " 已分配"
+  },
+  "KSA.LifeSupportWindow/Window::AppendLasts": {
+    "Lasts ": "还可维持 ",
+    "Out": "耗尽"
+  },
+  "KSA.LifeSupportWindow/Window::AppendMissionTab": {
+    "short ": "不足 ",
+    "enough": "充足",
+    "not used": "未使用"
+  },
+  "KSA.LifeSupportWindow/Window::AppendMissionVerdict": {
+    " · Enough for its legs": " · 本区所需物资充足",
+    " · Not used on this mission": " · 此任务不使用本区"
+  },
+  "KSA.LifeSupportWindow/Window::AppendPlannedCrew": {
+    " kitten planned": " 名小猫航天员列入计划",
+    " kittens planned": " 名小猫航天员列入计划"
+  },
+  "KSA.LifeSupportWindow/Window::AppendVesselTab": {
+    " · no crew": " · 无乘员",
+    "Out": "耗尽"
+  },
+  "KSA.LifeSupportWindow/Window::DrawZoneTabs": {
+    "no crew": "无乘员",
+    " kitten": " 名小猫航天员",
+    " kittens": " 名小猫航天员",
+    "Out": "耗尽"
+  },
+  "KSA.LifeSupportWindow/Window::DrawCard": {
+    "Habitable ": "居住容积 ",
+    " each": "／人",
+    " · Storage ": " · 储物空间 "
+  },
+  "KSA.LifeSupportWindow/Window::DrawConnected": {
+    " · EVA only": " · 仅可经舱外活动到达",
+    " · behind a closed hatch": " · 舱门关闭",
+    " · open hatch": " · 舱门已打开"
+  },
+  "KSA.LifeSupportWindow/Window::DrawDestinations": {
+    " · room for ": " · 还可容纳 ",
+    " meals, ": " 份餐食，",
+    " canisters": " 个二氧化碳吸收罐",
+    " · EVA only": " · 仅可经舱外活动到达",
+    " · behind a closed hatch": " · 舱门关闭"
+  },
+  "KSA.LifeSupportWindow/Window::AppendTooltip": {
+    " · room for ": " · 还可容纳 ",
+    " meals, ": " 份餐食，",
+    " canisters": " 个二氧化碳吸收罐"
+  },
+  "KSA.LifeSupportWindow/Window::DrawMissionSupplies": {
+    " runs out in ": " 距离耗尽还有 ",
+    " runs out at ": " 耗尽于 "
+  },
+  "KSA.LifeSupportWindow/Window::DrawMissionTiming": {
+    " left": " 剩余"
+  },
+  "KSA.LifeSupportWindow/Window::DrawMissionWorstLine": {
+    " · Zone ": " · 居住区 "
+  },
+  "KSA.LifeSupportWindow/Window::DrawWorstLine": {
+    " · Zone ": " · 居住区 "
+  },
+  "KSA.LifeSupportWindow/Window::DrawRunsOut": {
+    " before ": " 早于",
+    " ends": "结束"
+  },
+  "KSA.LifeSupportWindow/Window::DrawStock": {
+    "Needs ": "还需 ",
+    " more storage": " 储物空间"
+  },
+  "KSA.LifeSupportWindow/Window::DrawStorage": {
+    " meals · ": " 份餐食 · ",
+    " canisters": " 个二氧化碳吸收罐"
+  },
+  "KSA.LifeSupportWindow/Window::DrawTransferContent": {
+    "From ": "来源：",
+    "Move supplies": "转移物资"
+  },
+  "KSA.MissionPicker::AppendSummary": {
+    "Custom · ": "自定义 · "
+  },
+  "KSA.MissionPicker::AppendPlan": {
+    "Flyby": "飞掠",
+    "Land": "着陆",
+    "Orbit": "入轨",
+    "Return": "往返",
+    "One way": "单程"
+  },
+  "KSA.MissionPicker::DrawBreakdown": {
+    " isn't in this star system.": " 不在当前恒星系内。",
+    "A flyby of ": "飞掠 ",
+    " can't come straight back. Pick Orbit, Land or One way.": " 后无法直接返航。请选择入轨、着陆或单程。",
+    "Out ": "去程 ",
+    "Stay ": "停留 ",
+    "Back ": "返程 "
+  },
+  "KSA.MissionPicker::DrawTankSupply": {
+    ": holds ": "：现有 ",
+    " · tanks fit ": " · 储箱可容纳 ",
+    " · mission needs ": " · 任务需要 ",
+    "Needs ": "还需 ",
+    " more ": " ",
+    ": add a tank and set its Role Affinity to ": "：请添加储箱，并将其“供给对象”设为"
+  },
+  "KSA.ResourcesPanel::DrawRows": {
+    " · ZONE ": " · 居住区 "
+  },
+  "KSA.SupplyBars::DrawLegLabels": {
+    " kitten": " 名小猫航天员",
+    " kittens": " 名小猫航天员"
+  },
+  "KSA.SupplyBars::DrawMissionLine": {
+    "last leg ends ": "最后一段结束于 "
+  },
+  "KSA.Vehicle::CreditAvionics": {
+    ": a probe core has failed from radiation.": "：一个探测器核心已因辐射损坏。",
+    ": a probe core is wearing out from radiation, ": "：一个探测器核心正因辐射而损耗，累计剂量已达到耐受剂量的 ",
+    " of its tolerance.": "。"
+  },
+  "KSA.Vehicle::CreditDose": {
+    " is close to a lethal radiation dose!": " 所受辐射已接近致死剂量！",
+    " has radiation sickness!": " 患了辐射病！",
+    " has reached their lifetime radiation limit and will retire after this flight.": " 的累计辐射已达终身限值，本次飞行结束后将退役。"
+  },
+  "KSA.Vehicle::RollUpset": {
+    ": probe core rebooting after a radiation upset.": "：探测器核心受到辐射扰动，正在重启。"
+  },
+  "KSA.Vehicle::UpdateControl": {
+    " is out of control: every kitten in the command pod is incapacitated.": " 已失控：指令舱内的小猫航天员均已失去行动能力。",
+    " is out of control: its probe core has failed.": " 已失控：探测器核心已损坏。",
+    " is out of control: its probe core is out of power.": " 已失控：探测器核心电量已耗尽。"
+  },
+  "KSA.Vehicle::UpdateProbePowerWarning": {
+    ": probe core power runs out in ": "：探测器核心距离电量耗尽还有 "
+  },
+  "KSA.Vehicle::UpdateStormStandbyAlert": {
+    ": the radiation storm has passed, probe core back on.": "：辐射风暴已结束，探测器核心已恢复供电。",
+    ": probe core standing by until the S": "：探测器核心将在 S",
+    " radiation storm passes.": " 级辐射风暴结束后恢复运行。"
+  },
+  "KSA.ZoneMission::AppendShortBy": {
+    " short by ": "还差 "
   }
 }

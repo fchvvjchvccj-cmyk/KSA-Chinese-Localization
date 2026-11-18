@@ -1,58 +1,24 @@
 {
-  "gameBuild": "2026.11.10.5801",
-  "previousGameBuild": "2026.10.13.5602",
-  "assemblyVersion": "2026.11.10.5801",
-  "targetFrameworks": [
-    ".NETCoreApp,Version=v10.0"
-  ],
-  "managedArtifactEvidenceId": "ev_257a337a38064c346935e513444dd4fd60b5edd2fc5cea1b85ae9081bb06bd27",
-  "managedMetadataCoverage": {
-    "issues": [],
-    "state": "complete"
-  },
-  "newDictionaryEntries": 463,
-  "previousTranslationsPreserved": true,
-  "newNativeEntries": 64,
-  "nativeEntries": 277,
-  "utf8NewCandidatesClassified": true,
-  "untranslatedInternalUtf8Candidates": [
-    "SupplyTransfer",
-    "kittens_retired",
-    "SeatPicker",
-    "USES_CUSTOM_NORMALS",
-    "PRE_PASS_NORMALS",
-    "PLANET_HEIGHT_BAKER",
-    "_ViewportCellSlots",
-    "CMAA2_HDR_COLOR",
-    "PREPARE_PATCH_DISPATCH",
-    "SETUP_PATCHES",
-    "PREPARE_VERTEX_DISPATCH",
-    "TESSELLATE"
-  ],
+  "gameBuild": "2026.11.16.5901",
+  "previousGameBuild": "2026.11.10.5801",
+  "assemblyVersion": "2026.11.16.5901",
+  "officialInstallerVerified": true,
+  "newDictionaryEntries": 213,
+  "revisedPartIdentifierTranslations": 7,
+  "previousDictionaryKeysPreserved": true,
+  "nativeEntries": 379,
+  "newOrUncoveredNativeTranslations": 98,
+  "nativeBefore": 277,
+  "partTemplatesChecked": 265,
+  "resourceDescriptionsChecked": 66,
+  "resourceTooltipsChecked": 104,
+  "scopedMethods": 69,
+  "uiFragments": 187,
   "crossBuildHashesAccepted": false,
-  "visualScope": "按既有要求仅进行后台验证，未打开游戏窗口，未验证游戏内画面。",
+  "visualScope": "仅后台验证，未打开游戏窗口，也未验证游戏画面、自动驾驶模组或整个 kFS 编译器的技术诊断。",
   "runtimeChecks": {
-    "en-US": 2088,
-    "zh-Hans": 2088
+    "zh-Hans": 2577,
+    "en-US": 2577
   },
-  "installedFilesMatchManifest": true,
-  "localizationAudit": {
-    "dictionaryEntries": 4149,
-    "addedDictionaryEntries": 16,
-    "revisedDictionaryEntries": 38,
-    "uiFragments": 85,
-    "scopedMethods": 26,
-    "sameBuildUpgradeVerified": true,
-    "originalEnglishUnchanged": true
-  },
-  "secondLocalizationAudit": {
-    "revisedSourceEntries": 53,
-    "correctedPartNames": 6,
-    "changedDictionaryValues": 67,
-    "addedUiFragments": 4,
-    "uiFragments": 89,
-    "dictionaryEntries": 4149,
-    "sameBuildUpgradeVerified": true,
-    "snapshotBeforeAudit": "logs/5801-before-second-audit"
-  }
+  "kfsScope": "基础界面术语已补译；编译器和虚拟机的底层诊断、技术说明、部分调试窗口仍可能保留英文。"
 }

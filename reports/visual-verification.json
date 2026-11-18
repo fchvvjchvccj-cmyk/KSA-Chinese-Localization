@@ -1,6 +1,7 @@
 {
-  "gameBuild": "2026.11.10.5801",
-  "scope": "按既有要求仅进行后台验证，未打开游戏窗口，未验证游戏内画面。",
-  "gameWindowOpened": false,
-  "inGameScreensChecked": false
+  "gameBuild": "2026.11.16.5901",
+  "gameStarted": false,
+  "userWindowsOpened": false,
+  "result": "not-run",
+  "scope": "仅后台验证，未打开游戏窗口，也未验证游戏画面、自动驾驶模组或整个 kFS 编译器的技术诊断。"
 }

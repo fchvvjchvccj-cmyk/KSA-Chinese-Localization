@@ -121,6 +121,10 @@
     <value>生命保障物资不足</value>
     <comment>原文：Life support low</comment>
   </data>
+  <data xml:space="preserve" name="AlertLifeSupportOut">
+    <value>生命保障耗尽</value>
+    <comment>原文：Life support out</comment>
+  </data>
   <data xml:space="preserve" name="AlertNearLimitAerodynamic">
     <value>载具即将达到最大气动载荷！</value>
     <comment>原文：Vehicle is close to its maximum aerodynamic load!</comment>
@@ -197,6 +201,10 @@
     <value>无法加载 {Vehicle}：部件在保存后发生了变化</value>
     <comment>原文：Cannot load {Vehicle}: its parts have changed since it was saved</comment>
   </data>
+  <data xml:space="preserve" name="AlertVehicleDroppedConnectors">
+    <value>{Vehicle} 上有些部件在存档后发生了变化。请检查它们是否仍连接在正确位置。</value>
+    <comment>原文：Some parts on {Vehicle} have changed since it was saved. Check that its parts are still attached where they should be.</comment>
+  </data>
   <data xml:space="preserve" name="AlertVehicleMissingParts">
     <value>无法加载 {Vehicle}：使用的部件已不存在（{Parts}）</value>
     <comment>原文：Cannot load {Vehicle}: it uses parts that no longer exist ({Parts})</comment>
@@ -229,6 +237,22 @@
     <value>载具猛烈撞击海面，已损毁！</value>
     <comment>原文：Vehicle destroyed by hard impact with the ocean!</comment>
   </data>
+  <data xml:space="preserve" name="CrewClockTooltip">
+    <value>如果情况不变，小猫航天员接下来可能会遇到的事件：物资即将耗尽，耗尽后机能受损、失去行动能力或死亡，或因辐射剂量而患辐射病或死亡。一天内优先显示最严重的事件，超过一天则优先显示最早发生的事件。点击可接管对应载具；如果已在控制该载具，则打开生命保障窗口。可在“视图”菜单中显示或隐藏倒计时（{Key}）。</value>
+    <comment>原文：The next thing that happens to a kitten if nothing changes: its supply running low, then being impaired, incapacitated or dying without it, or radiation sickness or death from its radiation dose. Within a day the worst comes first, otherwise the soonest. Click to take control of that vessel, or to open Life Support when it is the vessel you control. Show or hide the clock from the View menu ({Key}).</comment>
+  </data>
+  <data xml:space="preserve" name="CrewClockTooltipBack">
+    <value>接管先前控制的载具</value>
+    <comment>原文：Take control of the vessel you were controlling before</comment>
+  </data>
+  <data xml:space="preserve" name="CrewClockTooltipCollapse">
+    <value>仅显示最紧急的事件</value>
+    <comment>原文：Show only the most urgent event</comment>
+  </data>
+  <data xml:space="preserve" name="CrewClockTooltipExpand">
+    <value>显示每艘载具接下来会发生的事件</value>
+    <comment>原文：Show the next event for every vessel</comment>
+  </data>
   <data xml:space="preserve" name="EditorHistoryAddFuelLine">
     <value>添加燃料管线</value>
     <comment>原文：Add fuel line</comment>
@@ -253,6 +277,10 @@
     <value>编辑燃料管线</value>
     <comment>原文：Edit fuel line</comment>
   </data>
+  <data xml:space="preserve" name="EditorHistoryFillTanks">
+    <value>补满空气和水</value>
+    <comment>原文：Fill air and water</comment>
+  </data>
   <data xml:space="preserve" name="EditorHistoryFlowRule">
     <value>更改流动规则</value>
     <comment>原文：Change flow rule</comment>
@@ -264,6 +292,10 @@
   <data xml:space="preserve" name="EditorHistoryLoadVehicle">
     <value>加载载具</value>
     <comment>原文：Load vehicle</comment>
+  </data>
+  <data xml:space="preserve" name="EditorHistoryMission">
+    <value>任务</value>
+    <comment>原文：Mission</comment>
   </data>
   <data xml:space="preserve" name="EditorHistoryPartSettings">
     <value>更改部件设置</value>
@@ -296,6 +328,10 @@
   <data xml:space="preserve" name="EditorHistoryStaging">
     <value>更改分级</value>
     <comment>原文：Change staging</comment>
+  </data>
+  <data xml:space="preserve" name="EditorHistoryStockForMission">
+    <value>按任务补给</value>
+    <comment>原文：Stock for mission</comment>
   </data>
   <data xml:space="preserve" name="EditorHistorySwapVariant">
     <value>部件变体</value>
@@ -385,6 +421,10 @@
     <value>喷管面积比</value>
     <comment>原文：Nozzle Area Ratio</comment>
   </data>
+  <data xml:space="preserve" name="EditorSettingPowerSwitch">
+    <value>电源开关</value>
+    <comment>原文：Power Switch</comment>
+  </data>
   <data xml:space="preserve" name="EditorSettingPropellantUse">
     <value>推进剂使用</value>
     <comment>原文：Propellant Use</comment>
@@ -421,6 +461,10 @@
     <value>供给对象：</value>
     <comment>原文：Role Affinity:</comment>
   </data>
+  <data xml:space="preserve" name="EditorSettingStandbyInStorms">
+    <value>辐射风暴期间待机</value>
+    <comment>原文：Standby In Storms</comment>
+  </data>
   <data xml:space="preserve" name="EditorSettingSupplyUse">
     <value>物资供给</value>
     <comment>原文：Supply Use</comment>
@@ -450,8 +494,8 @@
     <comment>原文：Transfer the departure burn to your flight plan first.</comment>
   </data>
   <data xml:space="preserve" name="FlightComputerTooltipCrewIncapacitated">
-    <value>舱内所有小猫航天员均已失去行动能力，且载具没有探测器核心。</value>
-    <comment>原文：Every kitten aboard is incapacitated and there is no probe core.</comment>
+    <value>指令舱内的小猫航天员均已失去行动能力。</value>
+    <comment>原文：Every kitten in the command pod is incapacitated.</comment>
   </data>
   <data xml:space="preserve" name="FlightComputerTooltipNoBurn">
     <value>当前没有点火机动。</value>
@@ -461,6 +505,10 @@
     <value>载具没有控制模块。</value>
     <comment>原文：No vehicle control module.</comment>
   </data>
+  <data xml:space="preserve" name="FlightComputerTooltipNoCrew">
+    <value>指令舱里没有小猫航天员可以驾驶。</value>
+    <comment>原文：The command pod has no kitten to fly it.</comment>
+  </data>
   <data xml:space="preserve" name="FlightComputerTooltipNoEngine">
     <value>当前没有已启动的发动机。</value>
     <comment>原文：No engine is currently active.</comment>
@@ -468,6 +516,330 @@
   <data xml:space="preserve" name="FlightComputerTooltipNoTarget">
     <value>当前未设置目标。</value>
     <comment>原文：No target currently set.</comment>
+  </data>
+  <data xml:space="preserve" name="FlightComputerTooltipProbeCoreFailed">
+    <value>探测器核心因辐射而损坏。</value>
+    <comment>原文：The probe core has failed from radiation.</comment>
+  </data>
+  <data xml:space="preserve" name="FlightComputerTooltipProbeCoreOff">
+    <value>探测器核心的电源已关闭。</value>
+    <comment>原文：The probe core is switched off.</comment>
+  </data>
+  <data xml:space="preserve" name="FlightComputerTooltipProbeCoreRebooting">
+    <value>探测器核心受到辐射扰动，正在重启。</value>
+    <comment>原文：The probe core is rebooting after a radiation upset.</comment>
+  </data>
+  <data xml:space="preserve" name="FlightComputerTooltipProbeCoreStormStandby">
+    <value>探测器核心正在待机，直至辐射风暴结束。</value>
+    <comment>原文：The probe core is standing by until the radiation storm passes.</comment>
+  </data>
+  <data xml:space="preserve" name="FlightComputerTooltipProbeCoreUnpowered">
+    <value>探测器核心电量耗尽。</value>
+    <comment>原文：The probe core is out of power.</comment>
+  </data>
+  <data xml:space="preserve" name="LaunchCheckSuppliesShort">
+    <value>{Zone} 的{Supply}不足：只够维持 {Lasts}，但该居住区的最后一个任务阶段将于 {MissionEnd} 结束。仍要发射吗？</value>
+    <comment>原文：{Zone} runs short of {Supply}: it lasts {Lasts} and the zone's last mission leg ends at {MissionEnd}. Launch anyway?</comment>
+  </data>
+  <data xml:space="preserve" name="LaunchCheckSuppliesShortTitle">
+    <value>物资不足</value>
+    <comment>原文：Not enough supplies</comment>
+  </data>
+  <data xml:space="preserve" name="LaunchMenuTooltipMission">
+    <value>此载具保存的任务。可在载具编辑器的“生命保障”窗口中修改。</value>
+    <comment>原文：The mission saved with this craft. Change it in the vehicle editor's Life Support window.</comment>
+  </data>
+  <data xml:space="preserve" name="LaunchMenuTooltipNoMission">
+    <value>在载具编辑器的“生命保障”窗口中选定任务并保存载具，发射前便会按任务核查物资。</value>
+    <comment>原文：Pick a mission in the vehicle editor's Life Support window and save the craft, and its supplies are checked against the mission before launch.</comment>
+  </data>
+  <data xml:space="preserve" name="LaunchMenuTooltipOpenInEditor">
+    <value>在载具编辑器中打开已保存的载具，以修改储箱、储物空间、任务或乘员计划。此菜单中选择的乘员和装载的物资不会带入编辑器。</value>
+    <comment>原文：Open the saved craft in the vehicle editor to change its tanks, storage, mission or crew plan. Crew and stocking picked in this menu are not carried over.</comment>
+  </data>
+  <data xml:space="preserve" name="LaunchMenuTooltipShortStores">
+    <value>最早耗尽物资的居住区，以及它最先耗尽的物资。“全部补给”会为本次发射补充餐食和二氧化碳吸收罐。若居住区的储物空间已满，请在载具编辑器中扩容。</value>
+    <comment>原文：The zone that runs shortest and its first supply to run out. Stock All fills meals and CO₂ canisters for this launch. If the zone's storage is full, add storage in the vehicle editor.</comment>
+  </data>
+  <data xml:space="preserve" name="LaunchMenuTooltipShortTanks">
+    <value>空气和水由载具储箱提供。“全部补给”会尽可能装满；若要增加储箱容量，请使用载具编辑器。</value>
+    <comment>原文：Air and water come from the vessel's tanks. Stock All fills them as far as they go; adding tank capacity needs the vehicle editor.</comment>
+  </data>
+  <data xml:space="preserve" name="LaunchMenuTooltipStockAll">
+    <value>在储物空间允许的范围内，按乘员计划为所有有乘员的居住区补充餐食和二氧化碳吸收罐，并加上设置中的 {Margin}% 余量；空气和水也按同一规则装入储箱。只影响本次发射，不修改已保存的载具。</value>
+    <comment>原文：Set every crewed zone's meals and CO₂ canisters to cover its crew plan plus the {Margin}% margin from Settings, as far as storage allows, and fill the air and water tanks the same way. Only this launch changes, not the saved craft.</comment>
+  </data>
+  <data xml:space="preserve" name="LifeSupportTooltipAir">
+    <value>全体小猫航天员共用载具的空气储箱。每名小猫航天员每天消耗 {Mass} 千克空气。</value>
+    <comment>原文：Air comes from the vessel's air tanks shared by every kitten aboard. Each kitten breathes {Mass} kg a day.</comment>
+  </data>
+  <data xml:space="preserve" name="LifeSupportTooltipBackLeg">
+    <value>返程：从离开目的地到返回出发地。</value>
+    <comment>原文：Return Leg: from leaving the destination until home.</comment>
+  </data>
+  <data xml:space="preserve" name="LifeSupportTooltipClosedHatch">
+    <value>关闭的对接舱门将此居住区与另一侧隔开。</value>
+    <comment>原文：A closed docking hatch separates this zone from the other.</comment>
+  </data>
+  <data xml:space="preserve" name="LifeSupportTooltipCloseHatch">
+    <value>关闭舱门。两侧将各自成为独立居住区，并保留各自储存的物资。</value>
+    <comment>原文：Close the hatch. Each side becomes its own zone and keeps the supplies stored on its side.</comment>
+  </data>
+  <data xml:space="preserve" name="LifeSupportTooltipConnected">
+    <value>此载具上的其他居住区。打开舱门后，两区连通，可在区间转移乘员和物资。</value>
+    <comment>原文：Other zones on this vessel. An open hatch joins two zones so their crew and supplies can move between them.</comment>
+  </data>
+  <data xml:space="preserve" name="LifeSupportTooltipCrew">
+    <value>此居住区内就座的小猫航天员，以及各自的座位和状态。</value>
+    <comment>原文：Kittens seated in this zone, their seat and their condition.</comment>
+  </data>
+  <data xml:space="preserve" name="LifeSupportTooltipCrewAssigned">
+    <value>已分配到此居住区座位的小猫航天员。</value>
+    <comment>原文：Kittens assigned to seats in this zone.</comment>
+  </data>
+  <data xml:space="preserve" name="LifeSupportTooltipCrewEverySeat">
+    <value>尚未给任何小猫航天员分配座位，因此按满座估算。可分配座位，或选择任务并制定乘员计划，按更少的乘员计算。</value>
+    <comment>原文：Nobody is assigned a seat so every seat is counted. Assign kittens, or pick a mission and plan the crew, to count fewer.</comment>
+  </data>
+  <data xml:space="preserve" name="LifeSupportTooltipCrewFlight">
+    <value>此居住区内的小猫航天员，以及最先耗尽的物资还能维持多久。</value>
+    <comment>原文：Kittens in this zone and how long until its first supply runs out.</comment>
+  </data>
+  <data xml:space="preserve" name="LifeSupportTooltipCrewIncapacitated">
+    <value>此区所有小猫航天员均已失去行动能力</value>
+    <comment>原文：Every kitten in this zone is incapacitated</comment>
+  </data>
+  <data xml:space="preserve" name="LifeSupportTooltipCrewMoves">
+    <value>小猫航天员会在不同阶段之间换区。经舱门转移前须打开舱门；经舱外转移则须进行舱外活动。</value>
+    <comment>原文：Kittens change zones between legs. A move through a hatch needs it open, a move by EVA is a spacewalk.</comment>
+  </data>
+  <data xml:space="preserve" name="LifeSupportTooltipCrewPlan">
+    <value>各阶段、各居住区搭乘的小猫航天员人数。餐食和二氧化碳吸收罐不可跨区共用，请规划每名小猫航天员所在的居住区。</value>
+    <comment>原文：How many kittens ride in each zone on each leg. Food and CO₂ canisters stay in their zone, so plan where each kitten rides.</comment>
+  </data>
+  <data xml:space="preserve" name="LifeSupportTooltipCrewPlanned">
+    <value>根据上方乘员计划计算的人数。显示范围时，表示不同阶段的人数不同。</value>
+    <comment>原文：Kittens from the crew plan above. A range means the count changes between legs.</comment>
+  </data>
+  <data xml:space="preserve" name="LifeSupportTooltipCrewSeats">
+    <value>此居住区内各座位的小猫航天员，与部件窗口的“乘员”下拉框一致。无人分配时，此窗口按满座规划。</value>
+    <comment>原文：The kitten in each seat in this zone, the same as the part window's Crew combos. With nobody assigned the window plans for every seat.</comment>
+  </data>
+  <data xml:space="preserve" name="LifeSupportTooltipCruise">
+    <value>星际航行的速度，以光速的比例表示。</value>
+    <comment>原文：How fast the trip between the stars goes, as a fraction of the speed of light.</comment>
+  </data>
+  <data xml:space="preserve" name="LifeSupportTooltipCustom">
+    <value>若行程不适合用选择器设定，可手动输入任务时长。</value>
+    <comment>原文：Type the mission's length yourself for trips the picker can't describe.</comment>
+  </data>
+  <data xml:space="preserve" name="LifeSupportTooltipCustomLeg">
+    <value>整个自定义任务。</value>
+    <comment>原文：The whole custom mission.</comment>
+  </data>
+  <data xml:space="preserve" name="LifeSupportTooltipCustomLength">
+    <value>从发射到结束的任务总时长。</value>
+    <comment>原文：The whole mission's length from launch to the end.</comment>
+  </data>
+  <data xml:space="preserve" name="LifeSupportTooltipEvaCarry">
+    <value>在附近按 {Key}，通过舱外活动搬运。</value>
+    <comment>原文：EVA to carry: press {Key} near it</comment>
+  </data>
+  <data xml:space="preserve" name="LifeSupportTooltipEvaOnly">
+    <value>没有对接舱门通往该区。小猫航天员和物资只能经舱外转移。</value>
+    <comment>原文：No docked hatch leads there. Kittens and supplies get there by EVA.</comment>
+  </data>
+  <data xml:space="preserve" name="LifeSupportTooltipFewerKittens">
+    <value>本阶段将此居住区的小猫航天员人数减一。</value>
+    <comment>原文：One kitten fewer in this zone on this leg.</comment>
+  </data>
+  <data xml:space="preserve" name="LifeSupportTooltipFillTanks">
+    <value>按乘员计划所需的空气和水另加 {Margin}% 余量补充储箱。若容量不够，则装满储箱。不会排空任何储箱。</value>
+    <comment>原文：Fills the vessel's air and water tanks to cover the crew plan plus a {Margin}% margin, or to full when that isn't enough. Tanks are never emptied.</comment>
+  </data>
+  <data xml:space="preserve" name="LifeSupportTooltipFood">
+    <value>食物指存放于此居住区舱室内的餐食。每名小猫航天员每天消耗 {Meals} 份。</value>
+    <comment>原文：Food is the meals stored in this zone's habitats. Each kitten eats {Meals} meals a day.</comment>
+  </data>
+  <data xml:space="preserve" name="LifeSupportTooltipHabitats">
+    <value>此居住区内储存餐食和二氧化碳吸收罐的部件。乘员只能食用本区餐食，也只能用本区吸收罐净化空气。</value>
+    <comment>原文：Parts in this zone that store meals and CO₂ canisters. The crew can only eat and scrub from stores in their own zone.</comment>
+  </data>
+  <data xml:space="preserve" name="LifeSupportTooltipHohmann">
+    <value>去程和返程采用圆轨道之间最省燃料的霍曼转移。更快的转移可以缩短行程，但会消耗更多燃料。</value>
+    <comment>原文：Out and Back are the lowest-fuel transfers between circular orbits. A faster transfer shortens the trip but costs more fuel.</comment>
+  </data>
+  <data xml:space="preserve" name="LifeSupportTooltipInterstellarLegs">
+    <value>去程和返程以巡航速度穿越恒星间的空间。未计入加速和减速，实际耗时会略长。若目的地是行星，还要加上从该恒星到行星的转移时间。</value>
+    <comment>原文：Out and Back cross the gap between the stars at the cruise speed. Speeding up and slowing down aren't counted, so a real trip takes a little longer. Reaching a planet then adds a transfer from its star.</comment>
+  </data>
+  <data xml:space="preserve" name="LifeSupportTooltipKittenDays">
+    <value>各阶段的天数乘以对应的小猫航天员人数，再把结果相加。每名小猫航天员每天消耗 {Meals} 份餐食；每个二氧化碳吸收罐可供 {KittenDays} 人天使用。</value>
+    <comment>原文：Days × kittens, added up over the legs. A kitten eats {Meals} meals a day, and a CO₂ canister lasts {KittenDays} kitten-days.</comment>
+  </data>
+  <data xml:space="preserve" name="LifeSupportTooltipMission">
+    <value>规划行程。任务计划随载具保存。</value>
+    <comment>原文：Plan a trip. The plan is saved with the vehicle.</comment>
+  </data>
+  <data xml:space="preserve" name="LifeSupportTooltipMissionEnough">
+    <value>所有居住区的物资均足以撑到各自最后一个有乘员的阶段结束。</value>
+    <comment>原文：Every zone's supplies last until its last crewed leg ends.</comment>
+  </data>
+  <data xml:space="preserve" name="LifeSupportTooltipMissionShort">
+    <value>显示最早耗尽物资的居住区、最先耗尽的物资，以及距该区最后一个阶段结束还差多久。</value>
+    <comment>原文：The zone that runs shortest, its first supply to run out, and how long before the zone's last leg ends.</comment>
+  </data>
+  <data xml:space="preserve" name="LifeSupportTooltipMoreKittens">
+    <value>本阶段将此居住区的小猫航天员人数加一。</value>
+    <comment>原文：One more kitten in this zone on this leg.</comment>
+  </data>
+  <data xml:space="preserve" name="LifeSupportTooltipNoCrewToCarry">
+    <value>此区没有可转移物资的小猫航天员</value>
+    <comment>原文：No kitten in this zone to move supplies</comment>
+  </data>
+  <data xml:space="preserve" name="LifeSupportTooltipNoKittensToSpare">
+    <value>本阶段已安排载具上的所有小猫航天员。若要计划更多乘员，请给更多小猫航天员分配座位。</value>
+    <comment>原文：Every kitten aboard is already planned on this leg. Assign more kittens to seats to plan more.</comment>
+  </data>
+  <data xml:space="preserve" name="LifeSupportTooltipNothingToMove">
+    <value>此处没有可转移的物资</value>
+    <comment>原文：Nothing stored here to move</comment>
+  </data>
+  <data xml:space="preserve" name="LifeSupportTooltipOpenHatch">
+    <value>打开舱门可连通两个居住区，让小猫航天员和物资在两区之间转移。</value>
+    <comment>原文：Opening the hatch will join the two zones so kittens and supplies can move between them.</comment>
+  </data>
+  <data xml:space="preserve" name="LifeSupportTooltipOpenHatchRow">
+    <value>这扇打开的对接舱门把两侧连为一个居住区。</value>
+    <comment>原文：This open docking hatch joins the two sides into one zone.</comment>
+  </data>
+  <data xml:space="preserve" name="LifeSupportTooltipOutLeg">
+    <value>去程：从发射到抵达目的地。</value>
+    <comment>原文：Out Leg: from launch until arriving at the destination.</comment>
+  </data>
+  <data xml:space="preserve" name="LifeSupportTooltipOverfull">
+    <value>此阶段计划的人数超过载具上已就座的人数。请分配更多座位或减少计划人数。</value>
+    <comment>原文：More kittens are planned on this leg than are seated aboard. Assign more kittens, or plan fewer.</comment>
+  </data>
+  <data xml:space="preserve" name="LifeSupportTooltipPickChosen">
+    <value>物资将转移到这里。</value>
+    <comment>原文：Supplies will move here.</comment>
+  </data>
+  <data xml:space="preserve" name="LifeSupportTooltipPickDestination">
+    <value>点击将物资转移到这里。</value>
+    <comment>原文：Click to move supplies here.</comment>
+  </data>
+  <data xml:space="preserve" name="LifeSupportTooltipPickOpenHatch">
+    <value>请先打开舱门。可在“转移物资”窗口的“目的地”下找到这扇舱门。</value>
+    <comment>原文：Open the hatch first: it is listed under To in the Transfer Supplies window.</comment>
+  </data>
+  <data xml:space="preserve" name="LifeSupportTooltipPlan">
+    <value>“飞掠”指掠过天体而不停留。“入轨”和“着陆”会按设定时间停留。“单程”不安排返程。</value>
+    <comment>原文：Flyby passes the body without stopping. Orbit and Land stay for the Stay time. One way plans no trip home.</comment>
+  </data>
+  <data xml:space="preserve" name="LifeSupportTooltipScrubber">
+    <value>存放在此居住区舱室内的二氧化碳吸收罐。每个吸收罐可以净化 {KittenDays} 人天所需的空气。</value>
+    <comment>原文：CO₂ canisters stored in this zone's habitats. Each canister scrubs the air for {KittenDays} kitten-days.</comment>
+  </data>
+  <data xml:space="preserve" name="LifeSupportTooltipSeatIncapacitated">
+    <value>失去行动能力</value>
+    <comment>原文：Incapacitated</comment>
+  </data>
+  <data xml:space="preserve" name="LifeSupportTooltipSeatMove">
+    <value>将这名小猫航天员移到同一居住区的空座位。</value>
+    <comment>原文：Move this kitten to an empty seat in the same zone.</comment>
+  </data>
+  <data xml:space="preserve" name="LifeSupportTooltipSeatNoEmpty">
+    <value>此区没有空座位</value>
+    <comment>原文：No empty seat in this zone</comment>
+  </data>
+  <data xml:space="preserve" name="LifeSupportTooltipSeatsFull">
+    <value>此居住区的所有座位都已列入计划。</value>
+    <comment>原文：Every seat in this zone is planned.</comment>
+  </data>
+  <data xml:space="preserve" name="LifeSupportTooltipShortfall">
+    <value>空气和水由全载具共用的储箱提供，餐食和二氧化碳吸收罐必须储存在乘员所在的居住区。</value>
+    <comment>原文：Air and water come from the vessel's tanks, but meals and CO₂ canisters must be stored in the crew's own zone.</comment>
+  </data>
+  <data xml:space="preserve" name="LifeSupportTooltipStay">
+    <value>在目的地停留的天数。若安排返程，停留时间可能因等待下一个返程窗口而延长。</value>
+    <comment>原文：Days at the destination. A return trip may stay longer while it waits for the next transfer window home.</comment>
+  </data>
+  <data xml:space="preserve" name="LifeSupportTooltipStayLeg">
+    <value>停留：在目的地停留的时间，包含等待返程转移窗口的时间。</value>
+    <comment>原文：Stay: at the destination, including any wait for the transfer window home.</comment>
+  </data>
+  <data xml:space="preserve" name="LifeSupportTooltipStockAll">
+    <value>在各居住区储物空间允许的范围内，按乘员计划为所有有乘员的居住区补充餐食和二氧化碳吸收罐，加上 {Margin}% 余量；空气和水也按同一规则装入储箱。可在“设置 → 模拟”中调整余量。</value>
+    <comment>原文：Stocks every crewed zone's meals and CO₂ canisters for its crew plan plus a {Margin}% margin, as far as each zone's storage allows, and fills the air and water tanks the same way. The margin is in Settings, Simulation.</comment>
+  </data>
+  <data xml:space="preserve" name="LifeSupportTooltipStockZone">
+    <value>在此居住区储物空间允许的范围内，按乘员计划补充餐食和二氧化碳吸收罐，加上 {Margin}% 余量。用不到的储物柜会清空。可在“设置 → 模拟”中调整余量。</value>
+    <comment>原文：Sets this zone's meals and CO₂ canisters to cover its crew plan plus a {Margin}% margin, as far as its storage allows. Lockers it doesn't need are emptied. The margin is in Settings, Simulation.</comment>
+  </data>
+  <data xml:space="preserve" name="LifeSupportTooltipStorageShort">
+    <value>此居住区的储物空间无法容纳 {Meals} 份餐食和 {Canisters} 个二氧化碳吸收罐。请为此区增加居住舱或货舱，或减少此区计划的人天数。</value>
+    <comment>原文：{Meals} meals and {Canisters} CO₂ canisters won't fit in this zone's storage. Add a habitat or cargo bay to the zone, or plan fewer kitten-days in it.</comment>
+  </data>
+  <data xml:space="preserve" name="LifeSupportTooltipStores">
+    <value>{Meals} 份餐食可供一名小猫航天员食用 {Days}。{Canisters} 个二氧化碳吸收罐可供 {KittenDays} 人天使用。</value>
+    <comment>原文：{Meals} meals feed one kitten for {Days}. {Canisters} CO₂ canisters scrub for {KittenDays} kitten-days.</comment>
+  </data>
+  <data xml:space="preserve" name="LifeSupportTooltipSwitchTo">
+    <value>接管此载具</value>
+    <comment>原文：Take control of this vessel</comment>
+  </data>
+  <data xml:space="preserve" name="LifeSupportTooltipTankMissing">
+    <value>即使装满，载具储箱也无法满足任务需求和余量。请添加储箱，并在部件窗口中将其“供给对象”设为这项物资。</value>
+    <comment>原文：Even full, the vessel's tanks can't cover the mission plus the margin. Add a tank and set its Role Affinity to this supply in the part window.</comment>
+  </data>
+  <data xml:space="preserve" name="LifeSupportTooltipTankSupply">
+    <value>空气和水由全载具共用的储箱提供。此处列出储箱现有储量、装满时的容量，以及任务所需用量加余量。只计算“供给对象”设为空气或水的储箱。</value>
+    <comment>原文：Air and water come from tanks the whole vessel shares. What the tanks hold now, what they hold when full, and what the mission plus the margin needs. Only tanks with Air or Water in their Role Affinity count.</comment>
+  </data>
+  <data xml:space="preserve" name="LifeSupportTooltipTimingAsPlanned">
+    <value>按编辑器中的计划计算各阶段时间，从发射时开始计时。</value>
+    <comment>原文：Times each leg as planned in the editor, counted from launch.</comment>
+  </data>
+  <data xml:space="preserve" name="LifeSupportTooltipTimingFlightPlan">
+    <value>以飞行计划预计到达任务目的地的时刻作为抵达时间，再加上计划中的停留和返程时间。载具实际抵达或离开后，改用实际时刻。</value>
+    <comment>原文：Times the arrival from when your flight plan reaches the mission's destination, then adds the planned stay and trip home. Once the vessel arrives or leaves, the real times are used.</comment>
+  </data>
+  <data xml:space="preserve" name="LifeSupportTooltipTimingLeft">
+    <value>距离任务最后一个阶段结束的时间。每个居住区的进度条上，虚线标记其最后一个阶段的结束时间。</value>
+    <comment>原文：Time until the mission's last leg ends. The dashed line on each zone's bars marks where that zone's last leg ends.</comment>
+  </data>
+  <data xml:space="preserve" name="LifeSupportTooltipTimingNoDestination">
+    <value>此任务未指定目的天体，因此只能按原计划计时。</value>
+    <comment>原文：This mission has no destination body, so it can only be timed as planned.</comment>
+  </data>
+  <data xml:space="preserve" name="LifeSupportTooltipTimingNoEncounter">
+    <value>飞行计划不会到达任务目的地。请规划一次前往该处的转移，再按飞行计划计时。</value>
+    <comment>原文：Your flight plan doesn't reach the mission's destination. Plan a transfer there to time the mission from it.</comment>
+  </data>
+  <data xml:space="preserve" name="LifeSupportTooltipTransfer">
+    <value>把餐食和二氧化碳吸收罐转移到同一居住区的另一处舱室，由本区的一名小猫航天员搬运。</value>
+    <comment>原文：Move meals and CO₂ canisters to another habitat in this zone. A kitten in the zone carries them.</comment>
+  </data>
+  <data xml:space="preserve" name="LifeSupportTooltipVessel">
+    <value>显示载有小猫航天员的载具，以及其中最早耗尽物资的居住区还能维持多久。选择标签页只会查看该载具，不会接管它。</value>
+    <comment>原文：A vessel with kittens aboard, and how long its worst zone lasts. Selecting a tab shows that vessel without taking control of it.</comment>
+  </data>
+  <data xml:space="preserve" name="LifeSupportTooltipVolumes">
+    <value>“居住容积”指乘员生活的加压空间，也显示每人分得的空间。“储物空间”用于存放餐食和二氧化碳吸收罐。</value>
+    <comment>原文：Habitable is the pressurised space the crew lives in, and how much each kitten gets. Storage is the space for meals and CO₂ canisters.</comment>
+  </data>
+  <data xml:space="preserve" name="LifeSupportTooltipWater">
+    <value>全体小猫航天员共用载具的水箱。每名小猫航天员每天饮用 {Mass} 千克水。</value>
+    <comment>原文：Water comes from the vessel's water tanks shared by every kitten aboard. Each kitten drinks {Mass} kg a day.</comment>
+  </data>
+  <data xml:space="preserve" name="LifeSupportTooltipWorst">
+    <value>按当前乘员计算，显示此载具最先耗尽的物资及其所在居住区。</value>
+    <comment>原文：The supply that runs out first on this vessel, and the zone it runs out in with the current crew.</comment>
+  </data>
+  <data xml:space="preserve" name="LifeSupportTooltipZone">
+    <value>居住区由小猫航天员无需进行舱外活动即可到达的舱室部件组成。餐食和二氧化碳吸收罐保留在各自的居住区，空气和水则由全载具共用。</value>
+    <comment>原文：A zone is the habitat parts kittens can reach without EVA. Meals and CO₂ canisters stay in their zone. Air and water are shared across the vessel.</comment>
   </data>
   <data xml:space="preserve" name="SettingsAudioGeneral">
     <value>常规</value>
@@ -612,6 +984,10 @@
   <data xml:space="preserve" name="SettingsGraphicsBloomsThresholdBloom">
     <value>阈值泛光</value>
     <comment>原文：Threshold Bloom</comment>
+  </data>
+  <data xml:space="preserve" name="SettingsGraphicsDebugPipelineCache">
+    <value>渲染管线缓存</value>
+    <comment>原文：Pipeline Cache</comment>
   </data>
   <data xml:space="preserve" name="SettingsGraphicsDebugRegion">
     <value>调试</value>
@@ -853,10 +1229,6 @@
     <value>界面像素剔除</value>
     <comment>原文：UI Pixel Culling</comment>
   </data>
-  <data xml:space="preserve" name="SettingsGraphicsVesselAmbientLighting">
-    <value>环境光照</value>
-    <comment>原文：Ambient Lighting</comment>
-  </data>
   <data xml:space="preserve" name="SettingsGraphicsVesselDeformation">
     <value>撞击凹陷</value>
     <comment>原文：Impact Dents</comment>
@@ -888,6 +1260,10 @@
   <data xml:space="preserve" name="SettingsGraphicsVolumetricsAuroraQuality">
     <value>极光质量</value>
     <comment>原文：Aurora quality</comment>
+  </data>
+  <data xml:space="preserve" name="SettingsGraphicsVolumetricsCloudAmbientLight">
+    <value>云层环境光</value>
+    <comment>原文：Cloud ambient light</comment>
   </data>
   <data xml:space="preserve" name="SettingsGraphicsVolumetricsCloudQuality">
     <value>云层与尾迹上采样</value>
@@ -1085,6 +1461,10 @@
     <value>地表散布物</value>
     <comment>原文：Ground Clutter</comment>
   </data>
+  <data xml:space="preserve" name="SettingsSimulationLifeSupportRegion">
+    <value>生命保障</value>
+    <comment>原文：Life Support</comment>
+  </data>
   <data xml:space="preserve" name="SettingsSimulationMaxFlightComputerRate">
     <value>飞行计算机最大更新率</value>
     <comment>原文：Maximum Flight Computer Rate</comment>
@@ -1100,6 +1480,14 @@
   <data xml:space="preserve" name="SettingsSimulationPerformanceRegion">
     <value>性能</value>
     <comment>原文：Performance</comment>
+  </data>
+  <data xml:space="preserve" name="SettingsSimulationStockMargin">
+    <value>任务补给余量</value>
+    <comment>原文：Stock for Mission Margin</comment>
+  </data>
+  <data xml:space="preserve" name="SettingsSimulationStockMarginTooltip">
+    <value>“按任务补给”在任务所需用量之外额外增加的餐食和二氧化碳吸收罐比例。转移用时仅为估计，预留余量可应对行程延长。</value>
+    <comment>原文：Extra meals and CO₂ canisters Stock for mission adds on top of the mission's needs, as a share of them. Transfer times are estimates, so a margin covers a slower trip.</comment>
   </data>
   <data xml:space="preserve" name="SettingsTabsId">
     <value>选项卡</value>
@@ -1120,5 +1508,25 @@
   <data xml:space="preserve" name="ShadowFilterTooltip_Pcss">
     <value>半影遮蔽：视觉效果最佳，性能开销较高</value>
     <comment>原文：Penumbra occlusion - best visual at a higher performance cost</comment>
+  </data>
+  <data xml:space="preserve" name="TransferPlannerMissionElsewhere">
+    <value>此次转移前往的位置不是该载具的任务目的地。</value>
+    <comment>原文：This transfer goes somewhere other than the vessel's mission destination.</comment>
+  </data>
+  <data xml:space="preserve" name="TransferPlannerMissionEnough">
+    <value>按此次转移方案，各居住区的物资均可维持到任务结束，涵盖去程、停留和返程。</value>
+    <comment>原文：With this transfer, every zone's supplies last the rest of the mission. The trip, the stay and the trip home.</comment>
+  </data>
+  <data xml:space="preserve" name="TransferPlannerMissionLate">
+    <value>此次转移的抵达时间晚于任务原计划。上方的物资读数按此次抵达时间计算。</value>
+    <comment>原文：This transfer arrives later than the mission planned. The supplies line above counts from this arrival.</comment>
+  </data>
+  <data xml:space="preserve" name="TransferPlannerMissionShort">
+    <value>按此次转移方案，最早耗尽物资的居住区会在其最后一个任务阶段结束前用尽这项物资。</value>
+    <comment>原文：With this transfer, the zone that runs shortest runs out of this supply before its last mission leg ends.</comment>
+  </data>
+  <data xml:space="preserve" name="TransferPlannerUpdateMission">
+    <value>将此次转移的目的地设为任务目的地。原有任务方案、停留和返程安排保持不变。</value>
+    <comment>原文：Make this transfer's destination the mission's. The plan, stay and trip home stay the same.</comment>
   </data>
 </root>

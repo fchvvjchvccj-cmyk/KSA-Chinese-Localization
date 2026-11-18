@@ -4,9 +4,9 @@
 6 X|6 倍
 8 X|8 倍
 ASMB|装配体
-CoreCommandA_Prefab_MediumCapsuleVariantA|中型指令舱 A
-CoreCommandB_Prefab_SmallLanderA|小型着陆舱 A
-CoreCommandB_Prefab_SmallLanderB|小型着陆舱 B
+CoreCommandA_Prefab_MediumCapsuleVariantA|Mk1 指令舱
+CoreCommandB_Prefab_SmallLanderA|Mk1 着陆舱
+CoreCommandB_Prefab_SmallLanderB|Mk1 着陆舱
 CoreCommandC_Prefab_ProbeCoreLargeA|大型探测器核心 A
 CoreCommandC_Prefab_ProbeCoreMediumA|中型探测器核心 A
 CoreCommandC_Prefab_ProbeCoreSmallA|小型探测器核心 A
@@ -138,6 +138,8 @@ CoreFuelTankB_Prefab_BaypartTankC|舱内储箱 C
 CoreFuelTankB_Prefab_BaypartTankD|舱内储箱 D
 CoreIVASpaceA_Prefab_MediumCapsuleA|中型指令舱内部 A
 CoreLandingA_Prefab_MediumLandingLegA|中型着陆支架 A
+CoreLifeSupportA_Prefab_HabitatModule2W4H|HM-2 居住舱模块
+CoreLifeSupportA_Prefab_HabitatModule3W6H|HM-3 居住舱模块
 CoreLifeSupportA_Prefab_SupplyLockerA|SL-M1 物资储物柜
 CoreLifeSupportA_Prefab_SupplyLockerB|SL-M2 物资储物柜
 CorePassageA_Prefab_HatchAVariantA|通道舱门 A
@@ -222,10 +224,10 @@ CorePropulsionC_Prefab_SRBDSegmentLargeA|D 型固体助推器分段
 CorePropulsionC_Prefab_SRBDThrustAssemblyA|D 型固体助推器推力组件
 CorePropulsionC_Prefab_SRBESegmentLargeA|E 型固体助推器分段
 CorePropulsionC_Prefab_SRBEThrustAssemblyA|E 型固体助推器推力组件
-CoreServiceModuleA_Prefab_SetA1SingleA|单格服务舱 A
-CoreServiceModuleA_Prefab_SetA2DoubleA|双格服务舱 A
-CoreServiceModuleA_Prefab_SetA3TripleA|三格服务舱 A
-CoreServiceModuleA_Prefab_SetA4QuadA|四格服务舱 A
+CoreServiceModuleA_Prefab_SetA1SingleA|Mk1 单格货舱
+CoreServiceModuleA_Prefab_SetA2DoubleA|Mk1 双格货舱
+CoreServiceModuleA_Prefab_SetA3TripleA|Mk1 三格货舱
+CoreServiceModuleA_Prefab_SetA4QuadA|Mk1 四格货舱
 CoreServiceModuleA_Prefab_SetAHeightA|服务舱 A
 CoreServiceModuleA_Prefab_SetAHeightB|服务舱 B
 CoreServiceModuleA_Prefab_SetAHeightC|服务舱 C

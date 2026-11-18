@@ -2,9 +2,11 @@
     [ValidateSet('Install', 'Restore')][string]$Action = 'Install',
     [ValidateSet('zh-Hans', 'en-US')][string]$Launch,
     [string]$GameDirectory,
-    [switch]$CheckPackage
+    [switch]$CheckPackage,
+    [switch]$NoSupportNotice
 )
 $ErrorActionPreference = 'Stop'
+if ($NoSupportNotice -and $Launch) { throw '后台安装不能同时启动游戏。' }
 $root = Split-Path $PSScriptRoot -Parent
 $manifest = Get-Content -LiteralPath (Join-Path $root 'manifest.json') -Raw -Encoding UTF8 | ConvertFrom-Json
 $remembered = Join-Path $root '.install-path.txt'
@@ -182,8 +184,10 @@ namespace KsaPatch {
             if ((Get-Hash (Get-SafePath $stage $relative)) -ne $expected[$relative]) { throw "差分生成校验失败：$relative，游戏文件未改动。" }
         }
         # 首次安装展示完整赞赏图片，关闭即可继续，不要求付款。
-        . (Join-Path $PSScriptRoot 'support.ps1')
-        Show-SupportNotice -Root $root
+        if (!$NoSupportNotice) {
+            . (Join-Path $PSScriptRoot 'support.ps1')
+            Show-SupportNotice -Root $root
+        }
         foreach ($property in $manifest.originalHashes.PSObject.Properties) {
             $savedPath = Get-SafePath $backup $property.Name
             if (!(Test-Path -LiteralPath $savedPath)) { Copy-Safe (Get-SafePath $game $property.Name) $savedPath }

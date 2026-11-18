@@ -1,0 +1,210 @@
+Life support out|生命保障耗尽
+Some parts on {Vehicle} have changed since it was saved. Check that its parts are still attached where they should be.|{Vehicle} 上有些部件在存档后发生了变化。请检查它们是否仍连接在正确位置。
+The next thing that happens to a kitten if nothing changes: its supply running low, then being impaired, incapacitated or dying without it, or radiation sickness or death from its radiation dose. Within a day the worst comes first, otherwise the soonest. Click to take control of that vessel, or to open Life Support when it is the vessel you control. Show or hide the clock from the View menu ({Key}).|如果情况不变，小猫航天员接下来可能会遇到的事件：物资即将耗尽，耗尽后机能受损、失去行动能力或死亡，或因辐射剂量而患辐射病或死亡。一天内优先显示最严重的事件，超过一天则优先显示最早发生的事件。点击可接管对应载具；如果已在控制该载具，则打开生命保障窗口。可在“视图”菜单中显示或隐藏倒计时（{Key}）。
+Take control of the vessel you were controlling before|接管先前控制的载具
+Show only the most urgent event|仅显示最紧急的事件
+Show the next event for every vessel|显示每艘载具接下来会发生的事件
+Fill air and water|补满空气和水
+Mission|任务
+Stock for mission|按任务补给
+Power Switch|电源开关
+Standby In Storms|辐射风暴期间待机
+Every kitten in the command pod is incapacitated.|指令舱内的小猫航天员均已失去行动能力。
+The command pod has no kitten to fly it.|指令舱里没有小猫航天员可以驾驶。
+The probe core has failed from radiation.|探测器核心因辐射而损坏。
+The probe core is switched off.|探测器核心的电源已关闭。
+The probe core is rebooting after a radiation upset.|探测器核心受到辐射扰动，正在重启。
+The probe core is standing by until the radiation storm passes.|探测器核心正在待机，直至辐射风暴结束。
+The probe core is out of power.|探测器核心电量耗尽。
+{Zone} runs short of {Supply}: it lasts {Lasts} and the zone's last mission leg ends at {MissionEnd}. Launch anyway?|{Zone} 的{Supply}不足：只够维持 {Lasts}，但该居住区的最后一个任务阶段将于 {MissionEnd} 结束。仍要发射吗？
+Not enough supplies|物资不足
+The mission saved with this craft. Change it in the vehicle editor's Life Support window.|此载具保存的任务。可在载具编辑器的“生命保障”窗口中修改。
+Pick a mission in the vehicle editor's Life Support window and save the craft, and its supplies are checked against the mission before launch.|在载具编辑器的“生命保障”窗口中选定任务并保存载具，发射前便会按任务核查物资。
+Open the saved craft in the vehicle editor to change its tanks, storage, mission or crew plan. Crew and stocking picked in this menu are not carried over.|在载具编辑器中打开已保存的载具，以修改储箱、储物空间、任务或乘员计划。此菜单中选择的乘员和装载的物资不会带入编辑器。
+The zone that runs shortest and its first supply to run out. Stock All fills meals and CO₂ canisters for this launch. If the zone's storage is full, add storage in the vehicle editor.|最早耗尽物资的居住区，以及它最先耗尽的物资。“全部补给”会为本次发射补充餐食和二氧化碳吸收罐。若居住区的储物空间已满，请在载具编辑器中扩容。
+Air and water come from the vessel's tanks. Stock All fills them as far as they go; adding tank capacity needs the vehicle editor.|空气和水由载具储箱提供。“全部补给”会尽可能装满；若要增加储箱容量，请使用载具编辑器。
+Set every crewed zone's meals and CO₂ canisters to cover its crew plan plus the {Margin}% margin from Settings, as far as storage allows, and fill the air and water tanks the same way. Only this launch changes, not the saved craft.|在储物空间允许的范围内，按乘员计划为所有有乘员的居住区补充餐食和二氧化碳吸收罐，并加上设置中的 {Margin}% 余量；空气和水也按同一规则装入储箱。只影响本次发射，不修改已保存的载具。
+Air comes from the vessel's air tanks shared by every kitten aboard. Each kitten breathes {Mass} kg a day.|全体小猫航天员共用载具的空气储箱。每名小猫航天员每天消耗 {Mass} 千克空气。
+Return Leg: from leaving the destination until home.|返程：从离开目的地到返回出发地。
+Close the hatch. Each side becomes its own zone and keeps the supplies stored on its side.|关闭舱门。两侧将各自成为独立居住区，并保留各自储存的物资。
+A closed docking hatch separates this zone from the other.|关闭的对接舱门将此居住区与另一侧隔开。
+Other zones on this vessel. An open hatch joins two zones so their crew and supplies can move between them.|此载具上的其他居住区。打开舱门后，两区连通，可在区间转移乘员和物资。
+Kittens seated in this zone, their seat and their condition.|此居住区内就座的小猫航天员，以及各自的座位和状态。
+Kittens assigned to seats in this zone.|已分配到此居住区座位的小猫航天员。
+Nobody is assigned a seat so every seat is counted. Assign kittens, or pick a mission and plan the crew, to count fewer.|尚未给任何小猫航天员分配座位，因此按满座估算。可分配座位，或选择任务并制定乘员计划，按更少的乘员计算。
+Kittens in this zone and how long until its first supply runs out.|此居住区内的小猫航天员，以及最先耗尽的物资还能维持多久。
+Kittens change zones between legs. A move through a hatch needs it open, a move by EVA is a spacewalk.|小猫航天员会在不同阶段之间换区。经舱门转移前须打开舱门；经舱外转移则须进行舱外活动。
+How many kittens ride in each zone on each leg. Food and CO₂ canisters stay in their zone, so plan where each kitten rides.|各阶段、各居住区搭乘的小猫航天员人数。餐食和二氧化碳吸收罐不可跨区共用，请规划每名小猫航天员所在的居住区。
+Kittens from the crew plan above. A range means the count changes between legs.|根据上方乘员计划计算的人数。显示范围时，表示不同阶段的人数不同。
+The kitten in each seat in this zone, the same as the part window's Crew combos. With nobody assigned the window plans for every seat.|此居住区内各座位的小猫航天员，与部件窗口的“乘员”下拉框一致。无人分配时，此窗口按满座规划。
+How fast the trip between the stars goes, as a fraction of the speed of light.|星际航行的速度，以光速的比例表示。
+Type the mission's length yourself for trips the picker can't describe.|若行程不适合用选择器设定，可手动输入任务时长。
+The whole custom mission.|整个自定义任务。
+The whole mission's length from launch to the end.|从发射到结束的任务总时长。
+EVA to carry: press {Key} near it|在附近按 {Key}，通过舱外活动搬运。
+No docked hatch leads there. Kittens and supplies get there by EVA.|没有对接舱门通往该区。小猫航天员和物资只能经舱外转移。
+One kitten fewer in this zone on this leg.|本阶段将此居住区的小猫航天员人数减一。
+Fills the vessel's air and water tanks to cover the crew plan plus a {Margin}% margin, or to full when that isn't enough. Tanks are never emptied.|按乘员计划所需的空气和水另加 {Margin}% 余量补充储箱。若容量不够，则装满储箱。不会排空任何储箱。
+Food is the meals stored in this zone's habitats. Each kitten eats {Meals} meals a day.|食物指存放于此居住区舱室内的餐食。每名小猫航天员每天消耗 {Meals} 份。
+Parts in this zone that store meals and CO₂ canisters. The crew can only eat and scrub from stores in their own zone.|此居住区内储存餐食和二氧化碳吸收罐的部件。乘员只能食用本区餐食，也只能用本区吸收罐净化空气。
+Out and Back are the lowest-fuel transfers between circular orbits. A faster transfer shortens the trip but costs more fuel.|去程和返程采用圆轨道之间最省燃料的霍曼转移。更快的转移可以缩短行程，但会消耗更多燃料。
+Out and Back cross the gap between the stars at the cruise speed. Speeding up and slowing down aren't counted, so a real trip takes a little longer. Reaching a planet then adds a transfer from its star.|去程和返程以巡航速度穿越恒星间的空间。未计入加速和减速，实际耗时会略长。若目的地是行星，还要加上从该恒星到行星的转移时间。
+Days × kittens, added up over the legs. A kitten eats {Meals} meals a day, and a CO₂ canister lasts {KittenDays} kitten-days.|各阶段的天数乘以对应的小猫航天员人数，再把结果相加。每名小猫航天员每天消耗 {Meals} 份餐食；每个二氧化碳吸收罐可供 {KittenDays} 人天使用。
+Plan a trip. The plan is saved with the vehicle.|规划行程。任务计划随载具保存。
+Every zone's supplies last until its last crewed leg ends.|所有居住区的物资均足以撑到各自最后一个有乘员的阶段结束。
+The zone that runs shortest, its first supply to run out, and how long before the zone's last leg ends.|显示最早耗尽物资的居住区、最先耗尽的物资，以及距该区最后一个阶段结束还差多久。
+One more kitten in this zone on this leg.|本阶段将此居住区的小猫航天员人数加一。
+Every kitten aboard is already planned on this leg. Assign more kittens to seats to plan more.|本阶段已安排载具上的所有小猫航天员。若要计划更多乘员，请给更多小猫航天员分配座位。
+Opening the hatch will join the two zones so kittens and supplies can move between them.|打开舱门可连通两个居住区，让小猫航天员和物资在两区之间转移。
+This open docking hatch joins the two sides into one zone.|这扇打开的对接舱门把两侧连为一个居住区。
+Out Leg: from launch until arriving at the destination.|去程：从发射到抵达目的地。
+More kittens are planned on this leg than are seated aboard. Assign more kittens, or plan fewer.|此阶段计划的人数超过载具上已就座的人数。请分配更多座位或减少计划人数。
+Supplies will move here.|物资将转移到这里。
+Click to move supplies here.|点击将物资转移到这里。
+Open the hatch first: it is listed under To in the Transfer Supplies window.|请先打开舱门。可在“转移物资”窗口的“目的地”下找到这扇舱门。
+Flyby passes the body without stopping. Orbit and Land stay for the Stay time. One way plans no trip home.|“飞掠”指掠过天体而不停留。“入轨”和“着陆”会按设定时间停留。“单程”不安排返程。
+CO₂ canisters stored in this zone's habitats. Each canister scrubs the air for {KittenDays} kitten-days.|存放在此居住区舱室内的二氧化碳吸收罐。每个吸收罐可以净化 {KittenDays} 人天所需的空气。
+Move this kitten to an empty seat in the same zone.|将这名小猫航天员移到同一居住区的空座位。
+Every seat in this zone is planned.|此居住区的所有座位都已列入计划。
+Air and water come from the vessel's tanks, but meals and CO₂ canisters must be stored in the crew's own zone.|空气和水由全载具共用的储箱提供，餐食和二氧化碳吸收罐必须储存在乘员所在的居住区。
+Days at the destination. A return trip may stay longer while it waits for the next transfer window home.|在目的地停留的天数。若安排返程，停留时间可能因等待下一个返程窗口而延长。
+Stay: at the destination, including any wait for the transfer window home.|停留：在目的地停留的时间，包含等待返程转移窗口的时间。
+Stocks every crewed zone's meals and CO₂ canisters for its crew plan plus a {Margin}% margin, as far as each zone's storage allows, and fills the air and water tanks the same way. The margin is in Settings, Simulation.|在各居住区储物空间允许的范围内，按乘员计划为所有有乘员的居住区补充餐食和二氧化碳吸收罐，加上 {Margin}% 余量；空气和水也按同一规则装入储箱。可在“设置 → 模拟”中调整余量。
+Sets this zone's meals and CO₂ canisters to cover its crew plan plus a {Margin}% margin, as far as its storage allows. Lockers it doesn't need are emptied. The margin is in Settings, Simulation.|在此居住区储物空间允许的范围内，按乘员计划补充餐食和二氧化碳吸收罐，加上 {Margin}% 余量。用不到的储物柜会清空。可在“设置 → 模拟”中调整余量。
+{Meals} meals and {Canisters} CO₂ canisters won't fit in this zone's storage. Add a habitat or cargo bay to the zone, or plan fewer kitten-days in it.|此居住区的储物空间无法容纳 {Meals} 份餐食和 {Canisters} 个二氧化碳吸收罐。请为此区增加居住舱或货舱，或减少此区计划的人天数。
+{Meals} meals feed one kitten for {Days}. {Canisters} CO₂ canisters scrub for {KittenDays} kitten-days.|{Meals} 份餐食可供一名小猫航天员食用 {Days}。{Canisters} 个二氧化碳吸收罐可供 {KittenDays} 人天使用。
+Take control of this vessel|接管此载具
+Even full, the vessel's tanks can't cover the mission plus the margin. Add a tank and set its Role Affinity to this supply in the part window.|即使装满，载具储箱也无法满足任务需求和余量。请添加储箱，并在部件窗口中将其“供给对象”设为这项物资。
+Air and water come from tanks the whole vessel shares. What the tanks hold now, what they hold when full, and what the mission plus the margin needs. Only tanks with Air or Water in their Role Affinity count.|空气和水由全载具共用的储箱提供。此处列出储箱现有储量、装满时的容量，以及任务所需用量加余量。只计算“供给对象”设为空气或水的储箱。
+Times each leg as planned in the editor, counted from launch.|按编辑器中的计划计算各阶段时间，从发射时开始计时。
+Times the arrival from when your flight plan reaches the mission's destination, then adds the planned stay and trip home. Once the vessel arrives or leaves, the real times are used.|以飞行计划预计到达任务目的地的时刻作为抵达时间，再加上计划中的停留和返程时间。载具实际抵达或离开后，改用实际时刻。
+Time until the mission's last leg ends. The dashed line on each zone's bars marks where that zone's last leg ends.|距离任务最后一个阶段结束的时间。每个居住区的进度条上，虚线标记其最后一个阶段的结束时间。
+This mission has no destination body, so it can only be timed as planned.|此任务未指定目的天体，因此只能按原计划计时。
+Your flight plan doesn't reach the mission's destination. Plan a transfer there to time the mission from it.|飞行计划不会到达任务目的地。请规划一次前往该处的转移，再按飞行计划计时。
+Move meals and CO₂ canisters to another habitat in this zone. A kitten in the zone carries them.|把餐食和二氧化碳吸收罐转移到同一居住区的另一处舱室，由本区的一名小猫航天员搬运。
+A vessel with kittens aboard, and how long its worst zone lasts. Selecting a tab shows that vessel without taking control of it.|显示载有小猫航天员的载具，以及其中最早耗尽物资的居住区还能维持多久。选择标签页只会查看该载具，不会接管它。
+Habitable is the pressurised space the crew lives in, and how much each kitten gets. Storage is the space for meals and CO₂ canisters.|“居住容积”指乘员生活的加压空间，也显示每人分得的空间。“储物空间”用于存放餐食和二氧化碳吸收罐。
+Water comes from the vessel's water tanks shared by every kitten aboard. Each kitten drinks {Mass} kg a day.|全体小猫航天员共用载具的水箱。每名小猫航天员每天饮用 {Mass} 千克水。
+The supply that runs out first on this vessel, and the zone it runs out in with the current crew.|按当前乘员计算，显示此载具最先耗尽的物资及其所在居住区。
+A zone is the habitat parts kittens can reach without EVA. Meals and CO₂ canisters stay in their zone. Air and water are shared across the vessel.|居住区由小猫航天员无需进行舱外活动即可到达的舱室部件组成。餐食和二氧化碳吸收罐保留在各自的居住区，空气和水则由全载具共用。
+Pipeline Cache|渲染管线缓存
+Cloud ambient light|云层环境光
+Stock for Mission Margin|任务补给余量
+Extra meals and CO₂ canisters Stock for mission adds on top of the mission's needs, as a share of them. Transfer times are estimates, so a margin covers a slower trip.|“按任务补给”在任务所需用量之外额外增加的餐食和二氧化碳吸收罐比例。转移用时仅为估计，预留余量可应对行程延长。
+This transfer goes somewhere other than the vessel's mission destination.|此次转移前往的位置不是该载具的任务目的地。
+With this transfer, every zone's supplies last the rest of the mission. The trip, the stay and the trip home.|按此次转移方案，各居住区的物资均可维持到任务结束，涵盖去程、停留和返程。
+This transfer arrives later than the mission planned. The supplies line above counts from this arrival.|此次转移的抵达时间晚于任务原计划。上方的物资读数按此次抵达时间计算。
+With this transfer, the zone that runs shortest runs out of this supply before its last mission leg ends.|按此次转移方案，最早耗尽物资的居住区会在其最后一个任务阶段结束前用尽这项物资。
+Make this transfer's destination the mission's. The plan, stay and trip home stay the same.|将此次转移的目的地设为任务目的地。原有任务方案、停留和返程安排保持不变。
+Radiation Tolerance|辐射耐受剂量
+Radiation Dose:|辐射剂量：
+Radiation Life:|辐射耐受余时：
+Failed|已损坏
+Over 100 years|超过 100 年
+How long until the electronics reach their tolerance at the radiation they are taking now. Switched off or on standby they take half.|按当前辐射水平，电子设备距离达到耐受剂量还能维持多久。关机或待机时，吸收的剂量减半。
+Total radiation dose the electronics have taken, in grays of silicon. The core fails for good at its tolerance.\n\nConverted from the sieverts a kitten would take here: the weighting for harm to living tissue is taken out (protons count half, cosmic rays 0.4, electrons in full), then scaled by 0.8 because silicon absorbs a little less energy than tissue.|电子设备累计吸收的总剂量，以硅的戈瑞计。达到耐受剂量后，核心将永久损坏。\n\n该数值由小猫航天员在此处所受的希沃特剂量换算：先去掉针对生物组织的危害权重（质子计一半，宇宙射线计 0.4，电子全部计入），再乘以 0.8，因为硅吸收的能量略少于组织。
+CREW PLAN|乘员计划
+Kitten-days|人天
+No air|缺氧
+Let go|松手
+No air or CO₂ canisters to fill the suit|没有空气或二氧化碳吸收罐可供航天服补给
+How a kitten is suffering from a missing life support supply: impaired, then incapacitated, then dead.\nAn impaired kitten refuses to EVA. An incapacitated kitten cannot move seats or fly.|小猫航天员缺少生命保障物资时，先后进入机能受损、失去行动能力和死亡状态。\n机能受损的小猫航天员拒绝进行舱外活动。失去行动能力后，无法移动座位或驾驶。
+LAUNCH ANYWAY|仍然发射
+OPEN IN EDITOR|在编辑器中打开
+No crew|无乘员
+Open Life Support|打开生命保障
+Impaired|机能受损
+No kittens planned|未安排小猫航天员
+Docking hatch|对接舱门
+Mission over|任务已结束
+As planned|按原计划
+From flight plan|按飞行计划
+Mission timing|任务计时
+Enough for the mission|物资足够完成任务
+Transfer|转移
+HABITATS|居住舱
+%d canisters|%d 个吸收罐
+%d meals|%d 份餐食
+Pick on vessel|在载具上选取
+Or click a green habitat on the vessel. Esc or right-click stops.|也可点击载具上以绿色标出的居住舱。按 Esc 或右键取消。
+TRANSFER SUPPLIES|转移物资
+Switch to|切换至
+Low orbit|低轨道
+Flyby|飞掠
+One way|单程
+Hohmann transfer times|霍曼转移用时
+No mission: supplies aren't checked against a length.|尚未规划任务，不按任务时长核对物资。
+Straight line at cruise speed|以巡航速度沿直线航行
+The stay waits for the next return window.|停留时间包含等待下一个返程窗口的时间。
+Cruise|巡航速度
+For trips the picker can't describe.|用于无法通过选择器设定的行程。
+Stock all|全部补给
+UPDATE MISSION|更新任务
+Habitat|居住舱
+Charging|充电中
+No battery|无电池
+Not draining|未耗电
+Out of power|电量耗尽
+Power Left:|剩余供电时间：
+No power|未供电
+Rebooting|重启中
+Standby|待机
+Storm standby|辐射风暴期间待机
+Power:|电源：
+Auto stands by, drawing no power, while a crewed pod or another probe core flies the vessel, and takes over when nothing else can.|“自动”模式下，有乘员的指令舱或另一探测器核心驾驶时，本核心进入待机且不耗电；没有其他控制来源时，本核心接管载具。
+Stands by, drawing no power, while a radiation storm of S1 or worse is under way at the vessel, as the Space Weather window shows it. On standby the core takes no upsets and half the dose, but cannot fly the vessel unless something else can.|“太空天气”窗口显示载具正遭遇 S1 级或更强的辐射风暴时，探测器核心进入待机且不耗电。待机时不会受到辐射扰动，只会吸收一半剂量，但无法驾驶载具，需由其他控制来源接管。
+Crew Clock|乘员倒计时
+Draw Aerodynamics|显示气动力
+EVA Supplies|舱外活动物资
+Show kFS Debug|显示 kFS 调试窗口
+Vessel Ambient Lighting|载具环境照明
+Built into the part|内置于部件
+Collapse|收起
+Expand|展开
+No mission: supplies aren't checked.|没有任务，未核对物资。
+kFS Tick|kFS 时钟步
+Dune Color|沙丘颜色
+Slope Color|坡面颜色
+Slope Strength|坡度强度
+Color Persistence|颜色持久度
+Ground Color Curve|地表颜色曲线
+X = Radius from Center, Y = Ground Color Intensity|X = 距中心的半径，Y = 地表颜色强度
+Ground Color|地表颜色
+kFS Debug|kFS 调试
+kFS ON|kFS 已开启
+kFS OFF|kFS 已关闭
+Pause the numbers (the program keeps running)|暂停数值刷新（程序继续运行）
+Resume the numbers|恢复数值刷新
+Diagnostics|诊断
+Disassembly|反汇编
+Listing|指令列表
+NaN watch|NaN 监视
+Copy as kASM|复制为 kASM
+New File...|新建文件…
+New Project...|新建项目…
+Go to definition|转到定义
+Examples|示例
+Opcodes|操作码
+Services|系统服务
+Revert|还原
+Copy as CSV|复制为 CSV
+No file open: kfs edit <file>, kfs new <file> (.c or .kasm), or pick one on the left.|未打开文件：可使用 kfs edit <file>、kfs new <file>（.c 或 .kasm），或从左侧选择文件。
+Writes this function as a new .kasm file and opens it: a starting point for a hand-optimised version.|将此函数写入一个新的 .kasm 文件并打开，可在此基础上手动优化。
+Preview recompiles the open file for another part: the report and the cost column change; nothing is loaded.|预览会针对另一部件重新编译当前文件，只更新报告与开销列，不会加载程序。
+Upload: save, build and put the file on the target|上传：保存并构建文件，再将其传到目标
+Copies the whole table, ignoring the filter, to the clipboard as comma-separated values.|忽略筛选条件，将整张表以逗号分隔值的形式复制到剪贴板。
+Mk1 Command Pod|Mk1 指令舱
+Mk1 Lander|Mk1 着陆舱
+CoreFairingA_Prefab_InterstageBridgeHollow1WHalfWA|中空级间转接段 1W0.5W-A
+HM-2 Habitat Module|HM-2 居住舱模块
+HM-3 Habitat Module|HM-3 居住舱模块
+Mk1 Cargo Bay (Single)|Mk1 单格货舱
+Mk1 Cargo Bay (Double)|Mk1 双格货舱
+Mk1 Cargo Bay (Triple)|Mk1 三格货舱
+Mk1 Cargo Bay (Quad)|Mk1 四格货舱
+CoreStructuralA_Prefab_StrutCubeNode1W1WA|方形支架节点 1W1W-A
+CoreStructuralA_Prefab_StrutCubeNode1W1WB|方形支架节点 1W1W-B
+CoreStructuralA_Prefab_StrutCubeNode1W1WC|方形支架节点 1W1W-C
+CoreStructuralA_Prefab_StrutCubeNodeHalfWHalfHD|方形支架节点 0.5W0.5H-D
+Shelf-stable meals in their packaging. A kitten eats three meals, 0.8 kg, a day.|独立包装、可常温长期保存的餐食。每名小猫航天员每天食用三份，共 0.8 千克。
+Granules in disposable canisters that soak up the CO₂ a crew breathes out. One 2.3 kg canister lasts a kitten 1.5 days, about 1.5 kg a day.|一次性吸收罐中的颗粒可吸收乘员呼出的二氧化碳。每罐重 2.3 千克，可供一名小猫航天员使用 1.5 天，每天用量约 1.5 千克。\
